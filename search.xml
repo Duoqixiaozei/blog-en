@@ -1,58 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>世界上第一个网站 World Wide Web</title>
-      <link href="/2024/07/05/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web/"/>
-      <url>/2024/07/05/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web/</url>
-      
-        <content type="html"><![CDATA[<p>#世界上第一个网站<br><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">点我带你进入世界上第一个网站</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>emoji test</title>
-      <link href="/2024/07/04/emoji-test/"/>
-      <url>/2024/07/04/emoji-test/</url>
-      
-        <content type="html"><![CDATA[<h1 id="emoji-test"><a href="#emoji-test" class="headerlink" title="emoji test"></a>emoji test</h1><p>😀😀😀😀😀😀😀😀😀😀😀<br>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>spotify美化</title>
-      <link href="/2024/04/29/spotify%E7%BE%8E%E5%8C%96/"/>
-      <url>/2024/04/29/spotify%E7%BE%8E%E5%8C%96/</url>
-      
-        <content type="html"><![CDATA[<h1 id="spotify-美化"><a href="#spotify-美化" class="headerlink" title="spotify 美化"></a>spotify 美化</h1><h2 id="Windows安装spicetify过程"><a href="#Windows安装spicetify过程" class="headerlink" title="Windows安装spicetify过程"></a>Windows安装spicetify过程</h2><ul><li>首先打开CMD，cmd还不知道怎么打开的可以按 windows键+r 输入cmd回车 -<br>或者按系统键-所有程序-附件-windows powershell<br>然后复制以下内容去安装 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 </span><br><span class="line">| iex </span><br></pre></td></tr></tbody></table></figure><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>安装的时候有报错请看看你有没有挂魔法，没有的话导致下载不了，因为是从github上下载的</li></ul><h1 id="Linux和Mac安装spicetify过程"><a href="#Linux和Mac安装spicetify过程" class="headerlink" title="Linux和Mac安装spicetify过程"></a>Linux和Mac安装spicetify过程</h1><ul><li>打开控制命令台复制以下内容并回车 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh </span><br><span class="line">| sh</span><br></pre></td></tr></tbody></table></figure><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh| sh</span><br></pre></td></tr></tbody></table></figure>重新打开spotify 会多出了一个按钮 Marketplace<br>点击一下你就可以看到主题和插件了</li></ul><h1 id="报错的问题"><a href="#报错的问题" class="headerlink" title="报错的问题"></a>报错的问题</h1><ul><li>安装的时候显示错误 大概率是你网络没用魔法</li><li>如果是win7以下的系统那就是你的powershell太老得去微软下一个最新的powershell</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> spotify </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>spotify美化</title>
+    <url>/2024/04/29/spotify%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="spotify-美化"><a href="#spotify-美化" class="headerlink" title="spotify 美化"></a>spotify 美化</h1><h2 id="Windows安装spicetify过程"><a href="#Windows安装spicetify过程" class="headerlink" title="Windows安装spicetify过程"></a>Windows安装spicetify过程</h2><ul>
+<li>首先打开CMD，cmd还不知道怎么打开的可以按 windows键+r 输入cmd回车 -<br>或者按系统键-所有程序-附件-windows powershell<br>然后复制以下内容去安装 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 </span><br><span class="line">| iex </span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
+安装的时候有报错请看看你有没有挂魔法，没有的话导致下载不了，因为是从github上下载的</li>
+</ul>
+<h1 id="Linux和Mac安装spicetify过程"><a href="#Linux和Mac安装spicetify过程" class="headerlink" title="Linux和Mac安装spicetify过程"></a>Linux和Mac安装spicetify过程</h1><ul>
+<li>打开控制命令台复制以下内容并回车 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh </span><br><span class="line">| sh</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">sh curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh| sh</span><br></pre></td></tr></tbody></table></figure>
+重新打开spotify 会多出了一个按钮 Marketplace<br>点击一下你就可以看到主题和插件了</li>
+</ul>
+<h1 id="报错的问题"><a href="#报错的问题" class="headerlink" title="报错的问题"></a>报错的问题</h1><ul>
+<li>安装的时候显示错误 大概率是你网络没用魔法</li>
+<li>如果是win7以下的系统那就是你的powershell太老得去微软下一个最新的powershell</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>spotify</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>emoji test</title>
+    <url>/2024/07/04/emoji-test/</url>
+    <content><![CDATA[<h1 id="emoji-test"><a href="#emoji-test" class="headerlink" title="emoji test"></a>emoji test</h1><p>😀😀😀😀😀😀😀😀😀😀😀<br>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>世界上第一个网站 World Wide Web</title>
+    <url>/2024/07/05/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web/</url>
+    <content><![CDATA[<p>#世界上第一个网站<br><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">点我带你进入世界上第一个网站</a></p>
+]]></content>
+  </entry>
 </search>
