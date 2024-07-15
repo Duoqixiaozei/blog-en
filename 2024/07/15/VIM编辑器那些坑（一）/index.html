@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"duoqixiaozei.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="点击阅读文章可以看到文章所以内容。">
+  <meta name="description" content="VIM编辑器那些坑（一）我每次用中文输入的时候按ESC每次都会退出不了的问题后面切换英文输入法就能退出 ESC + :  就可以实现了vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP">
 <meta property="og:type" content="article">
 <meta property="og:title" content="VIM编辑器那些坑（一）">
 <meta property="og:url" content="https://duoqixiaozei.github.io/2024/07/15/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/index.html">
 <meta property="og:site_name" content="PW0N">
-<meta property="og:description" content="点击阅读文章可以看到文章所以内容。">
+<meta property="og:description" content="VIM编辑器那些坑（一）我每次用中文输入的时候按ESC每次都会退出不了的问题后面切换英文输入法就能退出 ESC + :  就可以实现了vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-15T08:51:53.000Z">
-<meta property="article:modified_time" content="2024-07-15T08:58:36.641Z">
+<meta property="article:modified_time" content="2024-07-15T09:17:08.980Z">
 <meta property="article:author" content="PW0N">
 <meta property="article:tag" content="vim">
 <meta property="article:tag" content="学习">
@@ -222,7 +222,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-07-15 16:51:53 / 修改时间：16:58:36" itemprop="dateCreated datePublished" datetime="2024-07-15T16:51:53+08:00">2024-07-15</time>
+              <time title="创建时间：2024-07-15 16:51:53 / 修改时间：17:17:08" itemprop="dateCreated datePublished" datetime="2024-07-15T16:51:53+08:00">2024-07-15</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -235,7 +235,6 @@
             </span>
 
           
-            <div class="post-description">点击阅读文章可以看到文章所以内容。</div>
 
         </div>
       </header>
@@ -246,7 +245,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP<br>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
+        <h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
+<span id="more"></span>
+<p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">？example 或者/ example</span><br></pre></td></tr></tbody></table></figure>
 
 <p>OK那么你会用这些经典的用法那么怎么实现保存退出呢？<br>退出可以用</p>
@@ -289,6 +290,7 @@
       </footer>
     
   </article>
+
   
   
   
@@ -364,13 +366,13 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
