@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://duoqixiaozei.github.io/2024/07/15/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    
+    <lastmod>2024-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/about/index.html</loc>
+    
+    <lastmod>2024-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://duoqixiaozei.github.io/2024/07/11/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90%E3%80%8A%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3%E3%80%8B/</loc>
     
     <lastmod>2024-07-11</lastmod>
@@ -58,7 +85,7 @@
 
   <url>
     <loc>https://duoqixiaozei.github.io/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,32 +93,53 @@
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/spotify/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/test/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/tags/vim/</loc>
+    <lastmod>2024-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/categories/VIM/</loc>
+    <lastmod>2024-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
