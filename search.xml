@@ -31,6 +31,25 @@
       </tags>
   </entry>
   <entry>
+    <title>VIM编辑器那些坑（二）</title>
+    <url>/2024/07/17/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
+<h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
+<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
+<h2><span id="vim删除该行">VIM删除该行</span></h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
+<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
+<blockquote>
+<p>学太多反而害了你</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>VIM</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>emoji test</title>
     <url>/2024/07/04/emoji-test/</url>
     <content><![CDATA[<h1><span id="emoji-test">emoji test</span></h1><p>😀😀😀😀😀😀😀😀😀😀<br>test<br>test<br>test test test  test </p>
@@ -87,6 +106,15 @@
       </categories>
       <tags>
         <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的天才女友</title>
+    <url>/2024/07/17/%E6%88%91%E7%9A%84%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <tags>
+        <tag>book</tag>
       </tags>
   </entry>
   <entry>
@@ -177,25 +205,6 @@ ESP8266 智能设备</p>
       </categories>
       <tags>
         <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VIM编辑器那些坑（二）</title>
-    <url>/2024/07/17/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
-<h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
-<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
-<h2><span id="vim删除该行">VIM删除该行</span></h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
-<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
-<blockquote>
-<p>学太多反而害了你</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>VIM</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
       </tags>
   </entry>
 </search>
