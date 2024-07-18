@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://duoqixiaozei.github.io/2024/07/17/%E6%88%91%E7%9A%84%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B/</loc>
+    <loc>https://duoqixiaozei.github.io/2024/07/18/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</loc>
     
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://duoqixiaozei.github.io/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,56 +120,63 @@
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/vim/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/test/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/spotify/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://duoqixiaozei.github.io/tags/book/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/tags/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/tags/Linux/</loc>
+    <lastmod>2024-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/tags/SSH/</loc>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -178,42 +185,49 @@
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/VIM/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/test/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/Spotify/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://duoqixiaozei.github.io/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-07-17</lastmod>
+    <lastmod>2024-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://duoqixiaozei.github.io/categories/Linux/</loc>
+    <lastmod>2024-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
