@@ -1,3 +1,4 @@
+https://duoqixiaozei.github.io/2024/07/19/Linux%E4%B9%8Bputty%E8%BF%9C%E7%A8%8B%E5%B7%A5%E5%85%B7/
 https://duoqixiaozei.github.io/2024/07/18/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/
 https://duoqixiaozei.github.io/book/index.html
 https://duoqixiaozei.github.io/2024/07/17/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/
@@ -11,6 +12,8 @@ https://duoqixiaozei.github.io/about/index.html
 https://duoqixiaozei.github.io/categories/index.html
 https://duoqixiaozei.github.io/tags/index.html
 https://duoqixiaozei.github.io/
+https://duoqixiaozei.github.io/tags/Linux/
+https://duoqixiaozei.github.io/tags/SSH/
 https://duoqixiaozei.github.io/tags/vim/
 https://duoqixiaozei.github.io/tags/%E5%AD%A6%E4%B9%A0/
 https://duoqixiaozei.github.io/tags/test/
@@ -18,12 +21,10 @@ https://duoqixiaozei.github.io/tags/spotify/
 https://duoqixiaozei.github.io/tags/%E8%AE%B0%E5%BD%95/
 https://duoqixiaozei.github.io/tags/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/
 https://duoqixiaozei.github.io/tags/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97/
-https://duoqixiaozei.github.io/tags/Linux/
-https://duoqixiaozei.github.io/tags/SSH/
+https://duoqixiaozei.github.io/categories/Linux/
 https://duoqixiaozei.github.io/categories/VIM/
 https://duoqixiaozei.github.io/categories/test/
 https://duoqixiaozei.github.io/categories/Spotify/
 https://duoqixiaozei.github.io/categories/%E8%AE%B0%E5%BD%95/
 https://duoqixiaozei.github.io/categories/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/
 https://duoqixiaozei.github.io/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/
-https://duoqixiaozei.github.io/categories/Linux/
