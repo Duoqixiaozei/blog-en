@@ -11,4 +11,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://blog.pw0n.xyz/sitemap.xml
+Sitemap: https://www.pw0n.xyz/sitemap.xml
