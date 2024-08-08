@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Linux之putty远程工具</title>
-    <url>/Linux%E4%B9%8Bputty%E8%BF%9C%E7%A8%8B%E5%B7%A5%E5%85%B7.html</url>
+    <url>/Linux%E4%B9%8Bputty%E8%BF%9C%E7%A8%8B%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h1><span id="linux之putty篇">Linux之Putty篇</span></h1><p>如果你不知道在哪下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">点我下载</a>选择你的系统版本 比如说windows-64位的就下对应的。<br>下载直接打开就行<br>在hostname输入你的服务器IP地址 默认22端口登录<br>我写192.168.1.1是演示的 不是真实这个是局域网路由的 不要跟着我写 按你的服务器ip写</p>
 <p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty1.webp"></p>
 <span id="more"></span>
@@ -22,7 +22,7 @@
   </entry>
   <entry>
     <title>Linux创建SSH秘钥</title>
-    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5.html</url>
+    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</url>
     <content><![CDATA[<h1><span id="ssh-公钥创建">SSH 公钥创建</span></h1><p>打开你的linux 输入</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C "youremail@email.com"</span><br></pre></td></tr></tbody></table></figure>
 
@@ -53,7 +53,7 @@
   </entry>
   <entry>
     <title>VIM编辑器那些坑（一）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89.html</url>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
 <span id="more"></span>
 <p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
@@ -83,7 +83,7 @@
   </entry>
   <entry>
     <title>VIM编辑器那些坑（二）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89.html</url>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
 <h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
 <p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
@@ -102,7 +102,7 @@
   </entry>
   <entry>
     <title>emoji test</title>
-    <url>/emoji-test.html</url>
+    <url>/emoji-test/</url>
     <content><![CDATA[<h1><span id="emoji-test">emoji test</span></h1><p>😀😀😀😀😀😀😀😀😀😀<br>test<br>test<br>test test test  test </p>
 <span id="more"></span>😀
 <p>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>
@@ -116,7 +116,7 @@
   </entry>
   <entry>
     <title>spotify美化</title>
-    <url>/spotify%E7%BE%8E%E5%8C%96.html</url>
+    <url>/spotify%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<h1><span id="spotify-美化">spotify 美化</span></h1><h2><span id="windows安装spicetify过程">Windows安装spicetify过程</span></h2><ul>
 <li>首先打开CMD，cmd还不知道怎么打开的可以按 windows键+r 输入cmd回车 - <span id="more"></span>
 或者按系统键-所有程序-附件-windows powershell<br>然后复制以下内容去安装 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 </span><br><span class="line">| iex </span><br></pre></td></tr></tbody></table></figure>
@@ -142,7 +142,7 @@
   </entry>
   <entry>
     <title>世界上第一个网站 World Wide Web</title>
-    <url>/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web.html</url>
+    <url>/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web/</url>
     <content><![CDATA[<h1><span id="世界上第一个网站">世界上第一个网站</span></h1><p><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">点我带你进入世界上第一个网站</a></p>
 <span id="more"></span>
 <blockquote>
@@ -161,7 +161,7 @@
   </entry>
   <entry>
     <title>歌曲推荐《大石碎胸口》</title>
-    <url>/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90%E3%80%8A%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3%E3%80%8B.html</url>
+    <url>/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90%E3%80%8A%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3%E3%80%8B/</url>
     <content><![CDATA[<h1><span id="歌曲大石碎胸口万能青年旅店">歌曲《大石碎胸口》–万能青年旅店</span></h1><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97%E5%AD%90.webp" alt="万能青年旅店专辑封面"></p>
 <center>万能青年旅店</center>
 
@@ -223,7 +223,7 @@
   </entry>
   <entry>
     <title>记录一下我入坑linux</title>
-    <url>/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%91%E5%85%A5%E5%9D%91linux.html</url>
+    <url>/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%91%E5%85%A5%E5%9D%91linux/</url>
     <content><![CDATA[<h1><span id="重生之linux初体验">重生之linux初体验</span></h1><p>你们是什么时候入坑linux呢？学习？建站？<br>我那时候是听了Linus Torvalds的故事，那时候还是个小屁孩，听了b站的一个up主讲解linux，然后对linux感兴趣。</p>
 <span id="more"></span>
 <p>自己后面买了一本《鸟哥的私房菜》学了然后就没怎么看了，可能是命令太枯燥了，没有windows 鼠标点击的便捷 也可能我单纯的不喜欢哈哈，linux那时候入坑的时候大部分都是倒在虚拟机vmware 创建虚拟机的过程，那时候去下iso确实慢，不过等了好久就下好了，到时候出一期虚拟机教程，反正没人看写着玩，第一次 搜索linux的时候大部分出现的是ubuntu，后面好奇了一下去下了一个，那时候的ubuntu桌面化没有现在的直观容易，还是有些不兼容，gnome还行，如果你是用笔记本的话我建议还是用kde桌面，kde会流畅许多，虽然没有gnome可玩性，那时候第一个命令我记得是 cd cp mkdir touch 这些<br>这些都容易理解 来到 ls -al 这些有点费劲 还有chmod 添加权限这些就有点费劲 那时候初中，初中那时候还买了台树莓派，前年卖了还能卖原价，有点好笑。<br>高中那时候遇到了一位做游戏开发的现在他还在上学应该是往开发的方向去走，这个人就牛逼了，高中还会编译linux，那时候的他确实很牛啥都会，他用小米10还是11就开始在手机用docker 编译来运行windows 在手机运行，那时候很佩服，还参加了全国比赛挺牛的这人。大学我都没怎么学这些，因为都在玩，目前linux都是最近才搞，现在搞了一台云服务器<br>装了centos 那种无图形化的 你只能看到这种<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E5%91%BD%E4%BB%A4%E7%95%8C%E9%9D%A2.webp"><br>在搞linux的时候可以折腾一天，那时候天天看虽然没什么进步天天谷歌百度，天天找，很多报错的东西，大部分是404，比如你没挂国内的镜像，大部分都是从外网下载，有些是下载不了直接提成error导致你一些软件没安装上，会导致你一系列东西没搞好，就很烦，然后去找google，那时候还流行的一个表情包  google 百度都不会 来群里就是舍近求远<br>那时候还有坑人的 rm -rf 这个命令来坑人 这个命令是来强制删除不提醒 然后删除所有文件导致你所有文件被删除，系统损坏。<br>当你以为你离linux很远的时候，大部分都是linux的设备，地铁站，服务器，安卓系统（经过google的调教和修改变成安装 还是基于linux）嵌入式，机器人，大数据，人工智能，都会有linux的出现。</p>
@@ -237,7 +237,7 @@
   </entry>
   <entry>
     <title>记录之前的计划</title>
-    <url>/%E8%AE%B0%E5%BD%95%E4%B9%8B%E5%89%8D%E7%9A%84%E8%AE%A1%E5%88%92.html</url>
+    <url>/%E8%AE%B0%E5%BD%95%E4%B9%8B%E5%89%8D%E7%9A%84%E8%AE%A1%E5%88%92/</url>
     <content><![CDATA[<h1><span id="那些事情实现了吗">那些事情实现了吗？</span></h1><ul>
 <li><p><input disabled type="checkbox"> 
 <strong>高中时候</strong></p>
