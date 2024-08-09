@@ -12,3 +12,5 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://www.pw0n.xyz/sitemap.xml
+Sitemap: https://www.pw0n.xyz/baidusitemap.xml
+
