@@ -264,4 +264,23 @@ ESP8266 智能设备</p>
         <tag>记录</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Google 百度 Bing SEO重定向的问题</title>
+    <url>/Google-%E7%99%BE%E5%BA%A6-Bing-seo%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1><span id="google-百度-bing-seo重定向的问题">Google 百度 Bing SEO重定向的问题</span></h1><p>出现这种问题 网页会自动重定向，还是你主要的网址的话是什么原因呢？</p>
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/重定向.webp" widtht="50%" height="50%" alt="chongdingxiang">
+
+<span id="more"></span>
+
+<h2><span id="1域名绑定了两个在网站上">1.域名绑定了两个在网站上</span></h2><p>去服务商DNS去掉一个比如说我就用一个<a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 绑定到网站就用这个去绑定，可以用CNAME 或者 A来记录。</p>
+<h2><span id="2是否正确填写服务器dns">2.是否正确填写服务器DNS</span></h2><p>要在服务器正确填写你的域名DNS不是用那个就填那个，如果是github page，就在根目录创建一个CNAME的文件 写上你的网站 比如 <a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 创建好上传就好了</p>
+<h2><span id="3确定是否https">3.确定是否https</span></h2><p>这个就很重要，你要看你的网站的是什么格式大部分是https，如果是https没有SSL证书可以把你的域名托管到cloudflare可以免费SSL证书 还可以用cloudflare的cdn，大部分国内是在服务商购买SSL证书。</p>
+]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>SEO</tag>
+      </tags>
+  </entry>
 </search>
