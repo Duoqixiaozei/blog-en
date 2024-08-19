@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.pw0n.xyz","root":"/","scheme":"Pisces","version":"7.8.0","sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"www.pw0n.xyz","root":"/","scheme":"Pisces","version":"7.8.0","sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"disqus","active":null,"storage":true,"lazyload":false,"nav":{"disqus":{"text":"Load Disqus","order":-1}}},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="VIM编辑器那些坑(二)VIM界外复制！！！😕遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。 VIM界内复制和粘贴">
@@ -314,6 +314,13 @@
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -500,6 +507,23 @@
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js', () => {
+    window.dsqjs = new DisqusJS({
+      api       : 'https://blog-disqus.pw0nxx.workers.dev/api/' || 'https://disqus.com/api/',
+      apikey    : 'HYX6IvYp5FI0Uhmg5RKDw1K8mOjbDUzPt1Zxxs7461WHE3062hJfVpQ57Xkbx6Ih',
+      shortname : 'pw0n',
+      url       : "https://www.pw0n.xyz/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/",
+      identifier: "VIM编辑器那些坑（二）/",
+      title     : "VIM编辑器那些坑（二）",
+    });
+  }, window.DisqusJS);
+});
+</script>
 
 
         <style>
