@@ -10,6 +10,7 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+Disallow: /cdn-cgi/l/email-protection
 
 Sitemap: https://www.pw0n.xyz/sitemap.xml
 Sitemap: https://www.pw0n.xyz/baidusitemap.xml
