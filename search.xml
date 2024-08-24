@@ -40,86 +40,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux创建SSH秘钥</title>
-    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</url>
-    <content><![CDATA[<h1><span id="ssh-公钥创建">SSH 公钥创建</span></h1><p>打开你的linux 输入</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C "youremail@email.com"</span><br></pre></td></tr></tbody></table></figure>
-
-<p>“<del><a href="mailto:youremail@email.com">youremail@email.com</a></del>”填写你自己的email 不要填写示例的</p>
-<p>一路回车</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/root/.ssh/id_rsa):</span><br><span class="line">Created directory '/root/.ssh'.</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /root/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /root/.ssh/id_rsa.pub.</span><br></pre></td></tr></tbody></table></figure>
-
-<p>切换到ssh目录</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cd .ssh</span><br></pre></td></tr></tbody></table></figure>
-
-<p>用cat、 vim、 或者nano 把秘钥复制出来或者在下载到你的电脑上</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cat id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
-
-<p>这样就会显示你的秘钥</p>
-<blockquote>
-<p>懒的调格式了 就这样吧</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VIM编辑器那些坑（一）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
-<span id="more"></span>
-<p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">？example 或者/ example</span><br></pre></td></tr></tbody></table></figure>
-
-<p>OK那么你会用这些经典的用法那么怎么实现保存退出呢？<br>退出可以用</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:q+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>保存则是</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:w+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>那么保存加退出呢？</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>如何实现强制保存和退出呢？那就在后面用到“！”</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq！+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>忘记了一个重要的编辑功能<br>编辑功能不用按ESC 进入你想要的文件或者在你插件的文件时候按入“i”键就可以进入编辑功能，这样你就可以实现编辑功能是不是很方便呢？退出编辑功能直接按ESC就这样可以阅览</p>
-]]></content>
-      <categories>
-        <category>VIM</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VIM编辑器那些坑（二）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
-<h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
-<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
-<h2><span id="vim删除该行">VIM删除该行</span></h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
-<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
-<blockquote>
-<p>学太多反而害了你</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>VIM</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>emoji test</title>
     <url>/emoji-test/</url>
     <content><![CDATA[<h1><span id="emoji-test">emoji test</span></h1><p>😀😀😀😀😀😀😀😀😀😀<br>test<br>test<br>test test test  test </p>
@@ -306,6 +226,86 @@ ESP8266 智能设备</p>
       </categories>
       <tags>
         <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux创建SSH秘钥</title>
+    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</url>
+    <content><![CDATA[<h1><span id="ssh-公钥创建">SSH 公钥创建</span></h1><p>打开你的linux 输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C "youremail@email.com"</span><br></pre></td></tr></tbody></table></figure>
+
+<p>“<del><a href="mailto:youremail@email.com">youremail@email.com</a></del>”填写你自己的email 不要填写示例的</p>
+<p>一路回车</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/root/.ssh/id_rsa):</span><br><span class="line">Created directory '/root/.ssh'.</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /root/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /root/.ssh/id_rsa.pub.</span><br></pre></td></tr></tbody></table></figure>
+
+<p>切换到ssh目录</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cd .ssh</span><br></pre></td></tr></tbody></table></figure>
+
+<p>用cat、 vim、 或者nano 把秘钥复制出来或者在下载到你的电脑上</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cat id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这样就会显示你的秘钥</p>
+<blockquote>
+<p>懒的调格式了 就这样吧</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VIM编辑器那些坑（一）</title>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
+<span id="more"></span>
+<p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">？example 或者/ example</span><br></pre></td></tr></tbody></table></figure>
+
+<p>OK那么你会用这些经典的用法那么怎么实现保存退出呢？<br>退出可以用</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:q+Enter</span><br></pre></td></tr></tbody></table></figure>
+
+<p>保存则是</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:w+Enter</span><br></pre></td></tr></tbody></table></figure>
+
+<p>那么保存加退出呢？</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq+Enter</span><br></pre></td></tr></tbody></table></figure>
+
+<p>如何实现强制保存和退出呢？那就在后面用到“！”</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq！+Enter</span><br></pre></td></tr></tbody></table></figure>
+
+<p>忘记了一个重要的编辑功能<br>编辑功能不用按ESC 进入你想要的文件或者在你插件的文件时候按入“i”键就可以进入编辑功能，这样你就可以实现编辑功能是不是很方便呢？退出编辑功能直接按ESC就这样可以阅览</p>
+]]></content>
+      <categories>
+        <category>VIM</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VIM编辑器那些坑（二）</title>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
+<h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
+<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
+<h2><span id="vim删除该行">VIM删除该行</span></h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
+<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
+<blockquote>
+<p>学太多反而害了你</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>VIM</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
       </tags>
   </entry>
 </search>
