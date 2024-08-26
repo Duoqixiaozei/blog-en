@@ -40,43 +40,50 @@
       </tags>
   </entry>
   <entry>
-    <title>emoji test</title>
+    <title>Hexo 使用表情教程</title>
     <url>/emoji-test/</url>
-    <content><![CDATA[<h1><span id="emoji-test">emoji test</span></h1><p>😀😀😀😀😀😀😀😀😀😀<br>test<br>test<br>test test test  test </p>
+    <content><![CDATA[<p>输入这个命令 下载hexo-filter-github-emojis </p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ npm install hexo-filter-github-emojis --save</span><br></pre></td></tr></tbody></table></figure>
 <span id="more"></span>😀
-<p>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>
+<p>向站点配置文件 hexo（你的博客文件夹名）_config.yml 中添加如下设置</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">githubEmojis:</span><br><span class="line">  enable: true</span><br><span class="line">  className: github-emoji</span><br><span class="line">  unicode: true</span><br><span class="line">  styles:</span><br><span class="line">    display: inline</span><br><span class="line">    vertical-align: middle # Freemind适用</span><br><span class="line">  localEmojis:</span><br><span class="line">  </span><br></pre></td></tr></tbody></table></figure>
+<p>保存好后你可以再你的文章尝试表情<br>在 emoji-cheat-sheet 中找到你想要的表情，然后点击即可复制。使用方法和 GitHub 一样，比如你想发一个笑脸 😄 直接输入笑脸对应的 emoji 编码 :smile： 就可以。<br>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>
 ]]></content>
       <categories>
-        <category>test</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title>spotify美化</title>
+    <title>Spotify 美化指南</title>
     <url>/spotify%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<h1><span id="spotify-美化">spotify 美化</span></h1><h2><span id="windows安装spicetify过程">Windows安装spicetify过程</span></h2><ul>
-<li>首先打开CMD，cmd还不知道怎么打开的可以按 windows键+r 输入cmd回车 - <span id="more"></span>
-或者按系统键-所有程序-附件-windows powershell<br>然后复制以下内容去安装 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 </span><br><span class="line">| iex </span><br></pre></td></tr></tbody></table></figure>
+    <content><![CDATA[<h1><span id="spotify-美化指南">Spotify 美化指南</span></h1><h2><span id="如何使用插件实现最佳-spotify-界面美化">如何使用插件实现最佳 Spotify 界面美化</span></h2><p>首先你要安装好Spotify，什么版本都行，去官网安装就行了，这个我就不教。</p>
+<span id="more"></span>
+<p>按系统键-打开Windows Powershell文件夹-打Windows Powershell然后复制以下内容去安装。<br>一定是Windows Powershell而不是CMD！！！<br>这个是安装插件程序，一般安装这个他会提醒你要不要下载marketplace 输入Y就会自动下载好就不用复制下面的代码<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/powershell.webp" alt="powershell"></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/spotify%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2.webp" alt="spotify安装界面"><br>这个是里面的marketplace 安装这个后你可以在spotify的marketplace里面去安装你想要的主题和功能插件。</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
-安装的时候有报错请看看你有没有挂魔法，没有的话导致下载不了，因为是从github上下载的</li>
-</ul>
+<p>安装的时候有报错请看看你有没有挂魔法，没有的话导致下载不了，因为是从github上下载的</p>
 <h1><span id="linux和mac安装spicetify过程">Linux和Mac安装spicetify过程</span></h1><ul>
-<li>打开控制命令台复制以下内容并回车 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh </span><br><span class="line">| sh</span><br></pre></td></tr></tbody></table></figure>
+<li>打开控制命令台复制以下内容并回车 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh</span><br></pre></td></tr></tbody></table></figure>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">sh curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh| sh</span><br></pre></td></tr></tbody></table></figure>
 重新打开spotify 会多出了一个按钮 Marketplace<br>点击一下你就可以看到主题和插件了</li>
 </ul>
 <h1><span id="报错的问题">报错的问题</span></h1><ul>
 <li>安装的时候显示错误 大概率是你网络没用魔法</li>
 <li>如果是win7以下的系统那就是你的powershell太老得去微软下一个最新的powershell</li>
+<li>安装的时候选择了CMD而不是powershell导致显示’sh’ 不是内部或外部命令，也不是可运行的程序或批处理文件。</li>
 </ul>
 ]]></content>
       <categories>
         <category>Spotify</category>
       </categories>
       <tags>
-        <tag>spotify</tag>
+        <tag>Spotify</tag>
+        <tag>美化</tag>
+        <tag>插件</tag>
       </tags>
   </entry>
   <entry>
