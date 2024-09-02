@@ -338,4 +338,24 @@ ESP8266 智能设备</p>
         <tag>Google Cloud</tag>
       </tags>
   </entry>
+  <entry>
+    <title>域名取消绑定后为什么输入IP网址还是会自动跳转域名？</title>
+    <url>/%E5%9F%9F%E5%90%8D%E5%8F%96%E6%B6%88%E7%BB%91%E5%AE%9A%E5%90%8E%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%93%E5%85%A5IP%E7%BD%91%E5%9D%80%E8%BF%98%E6%98%AF%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%B7%B3%E8%BD%AC%E5%9F%9F%E5%90%8D%EF%BC%9F/</url>
+    <content><![CDATA[<h1><span id="域名取消绑定后为什么输入ip网址还是会自动跳转域名">域名取消绑定后为什么输入IP网址还是会自动跳转域名？</span></h1><h2><span id="可能原因及解决方案">可能原因及解决方案</span></h2><h3><span id="1-域名服务商未彻底删除ip绑定">1. 域名服务商未彻底删除IP绑定</span></h3><p>如果你的域名服务商没有彻底删除IP绑定信息，IP网址可能依旧与域名关联。你可以检查并删除所有绑定到该IP地址的域名。</p>
+<span id="more"></span>
+<h3><span id="2-域名服务商缓存未清理">2. 域名服务商缓存未清理</span></h3><p>有时，域名服务商的缓存未及时清理，导致IP地址仍会重定向到域名。请联系你的服务商以清理相关缓存。</p>
+<h3><span id="3-服务器上的-url-重写规则未修改">3. 服务器上的 URL 重写规则未修改</span></h3><p>服务器上的 URL 重写规则（如 Nginx 或 Apache 的 <code>.htaccess</code> 文件）可能未按照正确的地址进行修改，导致IP地址仍然重定向到域名。</p>
+<h4><span id="示例使用-cloudflare-进行检查和调整">示例：使用 Cloudflare 进行检查和调整</span></h4><ol>
+<li><p>打开 <a href="https://dash.cloudflare.com/">Cloudflare</a> 网站，进入 <strong>DNS</strong> 记录页面，检查是否还有其他域名绑定到你的服务器IP地址，确保所有无关的域名记录都已删除。</p>
+</li>
+<li><p>进入 <strong>缓存</strong> - <strong>配置</strong> - <strong>清除缓存</strong>，选择 <strong>清除所有内容</strong> 以确保缓存已被清理。<br>  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/cloudflare%E7%BC%93%E5%AD%98.webp" alt="cloudflare缓存清理"></p>
+</li>
+<li><p>打开你的Nginx配置文件，确认是否已将绑定的域名更改为IP地址。这样一来，你的IP网址就能正常打开了。</p>
+</li>
+</ol>
+<blockquote>
+<p>以上解决方案基于80端口已开放的公网IP地址。</p>
+</blockquote>
+]]></content>
+  </entry>
 </search>
