@@ -3,14 +3,14 @@
   <entry>
     <title>Google 百度 Bing SEO重定向的问题</title>
     <url>/Google-%E7%99%BE%E5%BA%A6-Bing-seo%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1><span id="google-百度-bing-seo重定向的问题">Google 百度 Bing SEO重定向的问题</span></h1><p>出现这种问题 网页会自动重定向，还是你主要的网址的话是什么原因呢？</p>
+    <content><![CDATA[<h1 id="Google-百度-Bing-SEO重定向的问题"><a href="#Google-百度-Bing-SEO重定向的问题" class="headerlink" title="Google 百度 Bing SEO重定向的问题"></a>Google 百度 Bing SEO重定向的问题</h1><p>出现这种问题 网页会自动重定向，还是你主要的网址的话是什么原因呢？</p>
 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/重定向.webp" widtht="50%" height="50%" alt="chongdingxiang">
 
 <span id="more"></span>
 
-<h2><span id="1域名绑定了两个在网站上">1.域名绑定了两个在网站上</span></h2><p>去服务商DNS去掉一个比如说我就用一个<a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 绑定到网站就用这个去绑定，可以用CNAME 或者 A来记录。</p>
-<h2><span id="2是否正确填写服务器dns">2.是否正确填写服务器DNS</span></h2><p>要在服务器正确填写你的域名DNS不是用那个就填那个，如果是github page，就在根目录创建一个CNAME的文件 写上你的网站 比如 <a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 创建好上传就好了</p>
-<h2><span id="3确定是否https">3.确定是否https</span></h2><p>这个就很重要，你要看你的网站的是什么格式大部分是https，如果是https没有SSL证书可以把你的域名托管到cloudflare可以免费SSL证书 还可以用cloudflare的cdn，大部分国内是在服务商购买SSL证书。</p>
+<h2 id="1-域名绑定了两个在网站上"><a href="#1-域名绑定了两个在网站上" class="headerlink" title="1.域名绑定了两个在网站上"></a>1.域名绑定了两个在网站上</h2><p>去服务商DNS去掉一个比如说我就用一个<a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 绑定到网站就用这个去绑定，可以用CNAME 或者 A来记录。</p>
+<h2 id="2-是否正确填写服务器DNS"><a href="#2-是否正确填写服务器DNS" class="headerlink" title="2.是否正确填写服务器DNS"></a>2.是否正确填写服务器DNS</h2><p>要在服务器正确填写你的域名DNS不是用那个就填那个，如果是github page，就在根目录创建一个CNAME的文件 写上你的网站 比如 <a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> 创建好上传就好了</p>
+<h2 id="3-确定是否https"><a href="#3-确定是否https" class="headerlink" title="3.确定是否https"></a>3.确定是否https</h2><p>这个就很重要，你要看你的网站的是什么格式大部分是https，如果是https没有SSL证书可以把你的域名托管到cloudflare可以免费SSL证书 还可以用cloudflare的cdn，大部分国内是在服务商购买SSL证书。</p>
 ]]></content>
       <categories>
         <category>SEO</category>
@@ -22,7 +22,7 @@
   <entry>
     <title>Linux之putty远程工具</title>
     <url>/Linux%E4%B9%8Bputty%E8%BF%9C%E7%A8%8B%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<h1><span id="linux之putty篇">Linux之Putty篇</span></h1><p>如果你不知道在哪下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">点我下载</a>选择你的系统版本 比如说windows-64位的就下对应的。<br>下载直接打开就行<br>在hostname输入你的服务器IP地址 默认22端口登录<br>我写192.168.1.1是演示的 不是真实这个是局域网路由的 不要跟着我写 按你的服务器ip写</p>
+    <content><![CDATA[<h1 id="Linux之Putty篇"><a href="#Linux之Putty篇" class="headerlink" title="Linux之Putty篇"></a>Linux之Putty篇</h1><p>如果你不知道在哪下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">点我下载</a>选择你的系统版本 比如说windows-64位的就下对应的。<br>下载直接打开就行<br>在hostname输入你的服务器IP地址 默认22端口登录<br>我写192.168.1.1是演示的 不是真实这个是局域网路由的 不要跟着我写 按你的服务器ip写</p>
 <p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty1.webp" alt="putty"></p>
 <span id="more"></span>
 
@@ -40,13 +40,153 @@
       </tags>
   </entry>
   <entry>
+    <title>如何使用Google Cloud中的SSH远程连接服务器：详细教程</title>
+    <url>/Google-Cloud-SSH%E8%BF%9C%E7%A8%8B%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>打开这个网址<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a><br>找到puttygen.exe (a RSA and DSA key generation utility)，找不到可以直接Ctrl + F 输入puttygen.exe (a RSA and DSA key generation utility)<br>会自动跳转到你找的信息，比如我的是chrome浏览器搜索到是有橙色来提醒找到的目标 找你对应的电脑架构类型下载 x86就下载x86的</p>
+<span id="more"></span>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%E4%B8%8B%E8%BD%BD.webp" alt="puttygen下载"></p>
+<p>下载好打开软件进入</p>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%20%E7%95%8C%E9%9D%A2.webp" alt="puttygen界面"></p>
+<p>点击Generate（tips:点击完不要切换其他程序等待一会 切换其他程序它就会不动！）<br>生成好 需要在Key comment添加的Gmail前面的信息@前面的比如我的是 rsa-key-20240826test（在添加你的gmail前面的信息，比如我的邮箱是<a href="mailto:test@gmail.com">test@gmail.com</a> @前面的比如test你直接加后面就行）<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%E7%94%9F%E6%88%90%E5%A5%BD%E7%9A%84.webp" alt="puttygen生成好"><br>然后点击Save private Key 保存到你想要的文件夹<br>然后打开你的Google cloud的Computer Engine在设置里面的“元数据”然后点击SSH秘钥<br>把puttygen的Public key for pasting into OpenSSH authorized keys file:全部内容复制到秘钥里面</p>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/google%20cloud%20%E5%85%83%E6%95%B0%E6%8D%AE%20ssh%E7%A7%98%E9%92%A5.webp" alt="ComputerEngine"></p>
+<p>然后打开你的虚拟机实例 复制你的外部IP<br>下载putty网址还是上面那个直接找到下载可以 找你对应的电脑架构类型下载 x86就下载x86的<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E4%B8%8B%E8%BD%BD.webp" alt="putty下载"></p>
+<p>点击左侧SSH-Auth-Credentials to authenticate with在Private key file for authentication:点击browse选择你刚刚在putty key generator保存ssh秘钥的文件夹。<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE2.webp" alt="putty设置1"><br>点击session在Hostname输入格式 rsa-key-20240826test@外部地址 （tips：rsa-key-20240826test是你在putty key generator软件的key comment 里面而test是你的Gmail前面的 也就是你Gmail@前面）然后你可以点击下方的Open就可以连接到你的服务器<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE1.webp" alt="putty设置2"><br>如果你觉得上面的过程麻烦下次还要按这样操作的话你在上面操作好之后在左侧session 然后saved<br>session填你想要的名称填好点击save下次打开直接选择你tina好的名称就可以链接服务器<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE3.webp" alt="putty设置3"></p>
+<blockquote>
+<p>有问题可以再下方评论，我看到的话会回复</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Google Cloud</category>
+      </categories>
+      <tags>
+        <tag>Google Cloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux创建SSH秘钥</title>
+    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</url>
+    <content><![CDATA[<h1 id="SSH-公钥创建"><a href="#SSH-公钥创建" class="headerlink" title="SSH 公钥创建"></a>SSH 公钥创建</h1><p>打开你的linux 输入</p>
+<figure class="highlight excel"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"youremail@email.com"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>“<del><a href="mailto:youremail@email.com">youremail@email.com</a></del>”填写你自己的email 不要填写示例的</p>
+<p>一路回车</p>
+<span id="more"></span>
+
+<figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">Enter <span class="keyword">file</span> in which <span class="keyword">to</span> save the key (/root/.ssh/id_rsa):</span><br><span class="line">Created directory <span class="string">'/root/.ssh'</span>.</span><br><span class="line">Enter passphrase (<span class="built_in">empty</span> <span class="keyword">for</span> <span class="keyword">no</span> passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification <span class="built_in">has</span> been saved in /root/.ssh/id_rsa.</span><br><span class="line">Your public key <span class="built_in">has</span> been saved in /root/.ssh/id_rsa.pub.</span><br></pre></td></tr></tbody></table></figure>
+
+<p>切换到ssh目录</p>
+<figure class="highlight jboss-cli"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">.ssh</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>用cat、 vim、 或者nano 把秘钥复制出来或者在下载到你的电脑上</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这样就会显示你的秘钥</p>
+<blockquote>
+<p>懒的调格式了 就这样吧</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spotify 美化插件之歌词界面毛玻璃效果</title>
+    <url>/Spotify-%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p><strong>声明</strong>：以下安装美化需要有spicetify-cli和spicetify-marketplace插件如果没有就只能看我以往的spotify美化教程<br>不懂安装的插件的点击这里看我之前的文章讲解 <a href="/spotify%E7%BE%8E%E5%8C%96/" title="Spotify 美化指南">Spotify 美化指南</a><br><strong>如何安装？</strong></p>
+<h3 id="直接从spotify-marketplace-Extensions-找到beautiful-lyrics安装-你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果"><a href="#直接从spotify-marketplace-Extensions-找到beautiful-lyrics安装-你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果" class="headerlink" title="直接从spotify-marketplace-Extensions 找到beautiful lyrics安装 你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果"></a>直接从spotify-marketplace-Extensions 找到beautiful lyrics安装 你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果</h3><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6.webp" alt="安装教程"></p>
+<span id="more"></span>
+<h3 id="第二种在powershell-安装-beautiful-lyrics-输入一下内容"><a href="#第二种在powershell-安装-beautiful-lyrics-输入一下内容" class="headerlink" title="第二种在powershell 安装 beautiful lyrics 输入一下内容"></a>第二种在powershell 安装 beautiful lyrics 输入一下内容</h3><figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">spicetify config custom_apps</span><br><span class="line">spicetify apply</span><br></pre></td></tr></tbody></table></figure>
+<p>美化歌词推荐：beautiful lyrics 有毛玻璃效果<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E6%95%88%E6%9E%9C%E5%9B%BE.webp" alt="美化效果"><br>再次打开客户端就可以看到效果</p>
+<blockquote>
+<p>tips:有些歌曲在spotify是无法看到歌词。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Spotify</category>
+      </categories>
+      <tags>
+        <tag>Spotify</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Temu特姆一键拒绝调价脚本 不同意调价脚本</title>
+    <url>/Temu%E7%89%B9%E5%A7%86%E4%B8%80%E9%94%AE%E6%8B%92%E7%BB%9D%E8%B0%83%E4%BB%B7-%E4%B8%8D%E5%90%8C%E6%84%8F%E8%B0%83%E4%BB%B7%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Temu天天弹降价窗所以搞了个一键不同调价的脚本<br>脚本要搭配油猴使用！！！<br>该脚本js脚本 可以直接复制到油猴 也可以直接创建一个文件后缀js的文件<br>然后把内容复制使用文本编辑粘贴上去再拖动到油猴脚本。<br>建议直接在油猴脚本 新建一个脚本 直接复制一下内容！<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/temu.webp" alt="temu右上角"><br>点击右上角开始直接一键不同意调价！！！</p>
+<span id="more"></span> 
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         自动点击不同意</span></span><br><span class="line"><span class="comment">// @namespace    https:www.pw0n.xyz</span></span><br><span class="line"><span class="comment">// @version      0.5</span></span><br><span class="line"><span class="comment">// @description  自动点击指定的元素，并增加开始和暂停按钮</span></span><br><span class="line"><span class="comment">// @author       pw0n</span></span><br><span class="line"><span class="comment">// @match        https://seller.kuajingmaihuo.com/*</span></span><br><span class="line"><span class="comment">// @grant        none</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line"></span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) {</span><br><span class="line">    <span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> isRunning = <span class="literal">false</span>; <span class="comment">// 标记当前状态，是否自动点击</span></span><br><span class="line">    <span class="keyword">let</span> intervalId;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">clickElements</span>(<span class="params">selector</span>) {</span><br><span class="line">        <span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(selector);</span><br><span class="line">        elements.<span class="title function_">forEach</span>(<span class="function"><span class="params">element</span> =&gt;</span> {</span><br><span class="line">            element.<span class="title function_">click</span>();</span><br><span class="line">        });</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">autoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="comment">// 点击class为 RD_textWrapper_5-111-0 的元素</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'div.RD_textWrapper_5-111-0.RD_prevRadio_5-111-0'</span>);</span><br><span class="line">        <span class="comment">// 点击"我已知晓风险，本次不再提醒"的元素</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'div.CBX_textWrapper_5-111-0.CBX_prevCheckSquare_5-111-0'</span>);</span><br><span class="line">        <span class="comment">// 点击确认按钮</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'button[data-tracking-id="zIb_kvR_JvmInKd9"].BTN_outerWrapper_5-111-0.BTN_danger_5-111-0.BTN_medium_5-111-0.BTN_outerWrapperBtn_5-111-0[data-testid="beast-core-button"]'</span>);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">startAutoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">if</span> (!isRunning) {</span><br><span class="line">            <span class="title function_">autoClick</span>(); <span class="comment">// 执行一次点击</span></span><br><span class="line">            intervalId = <span class="built_in">setInterval</span>(autoClick, <span class="number">3000</span>); <span class="comment">// 每3秒执行一次</span></span><br><span class="line">            isRunning = <span class="literal">true</span>;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">stopAutoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">if</span> (isRunning) {</span><br><span class="line">            <span class="built_in">clearInterval</span>(intervalId);</span><br><span class="line">            isRunning = <span class="literal">false</span>;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建按钮</span></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">createControlButtons</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">const</span> startButton = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">'button'</span>);</span><br><span class="line">        <span class="keyword">const</span> stopButton = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">'button'</span>);</span><br><span class="line"></span><br><span class="line">        startButton.<span class="property">textContent</span> = <span class="string">'开始'</span>;</span><br><span class="line">        stopButton.<span class="property">textContent</span> = <span class="string">'暂停'</span>;</span><br><span class="line"></span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">position</span> = <span class="string">'fixed'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">top</span> = <span class="string">'10px'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">left</span> = <span class="string">'10px'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">zIndex</span> = <span class="string">'9999'</span>;</span><br><span class="line"></span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">position</span> = <span class="string">'fixed'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">top</span> = <span class="string">'10px'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">left</span> = <span class="string">'70px'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">zIndex</span> = <span class="string">'9999'</span>;</span><br><span class="line"></span><br><span class="line">        startButton.<span class="title function_">addEventListener</span>(<span class="string">'click'</span>, startAutoClick);</span><br><span class="line">        stopButton.<span class="title function_">addEventListener</span>(<span class="string">'click'</span>, stopAutoClick);</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(startButton);</span><br><span class="line">        <span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(stopButton);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 页面加载后创建按钮</span></span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="title function_">createControlButtons</span>();</span><br><span class="line">    };</span><br><span class="line">})();</span><br></pre></td></tr></tbody></table></figure>
+<blockquote>
+<p>劝退正常人的平台</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>跨境电商</category>
+        <category>TEMU</category>
+      </categories>
+      <tags>
+        <tag>TEMU</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VIM编辑器那些坑（一）</title>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="VIM编辑器那些坑（一）"><a href="#VIM编辑器那些坑（一）" class="headerlink" title="VIM编辑器那些坑（一）"></a>VIM编辑器那些坑（一）</h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
+<span id="more"></span>
+<p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
+<figure class="highlight maxima"><table><tbody><tr><td class="code"><pre><span class="line">？<span class="built_in">example</span> 或者/ <span class="built_in">example</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>OK那么你会用这些经典的用法那么怎么实现保存退出呢？<br>退出可以用</p>
+<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:q+Enter</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>保存则是</p>
+<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:w+Enter</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>那么保存加退出呢？</p>
+<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:wq+Enter</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>如何实现强制保存和退出呢？那就在后面用到“！”</p>
+<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:wq</span>！+<span class="title class_">Enter</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>忘记了一个重要的编辑功能<br>编辑功能不用按ESC 进入你想要的文件或者在你插件的文件时候按入“i”键就可以进入编辑功能，这样你就可以实现编辑功能是不是很方便呢？退出编辑功能直接按ESC就这样可以阅览</p>
+]]></content>
+      <categories>
+        <category>VIM</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VIM编辑器那些坑（二）</title>
+    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="VIM编辑器那些坑-二"><a href="#VIM编辑器那些坑-二" class="headerlink" title="VIM编辑器那些坑(二)"></a>VIM编辑器那些坑(二)</h1><h2 id="VIM界外复制！！！😕"><a href="#VIM界外复制！！！😕" class="headerlink" title="VIM界外复制！！！😕"></a>VIM界外复制！！！😕</h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
+<h2 id="VIM界内复制和粘贴"><a href="#VIM界内复制和粘贴" class="headerlink" title="VIM界内复制和粘贴"></a>VIM界内复制和粘贴</h2><span id="more"></span>
+<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
+<h2 id="VIM删除该行"><a href="#VIM删除该行" class="headerlink" title="VIM删除该行"></a>VIM删除该行</h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
+<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
+<blockquote>
+<p>学太多反而害了你</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>VIM</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo 使用表情教程</title>
     <url>/emoji-test/</url>
     <content><![CDATA[<p>输入这个命令 下载hexo-filter-github-emojis </p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ npm install hexo-filter-github-emojis --save</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight livecodeserver"><table><tbody><tr><td class="code"><pre><span class="line">$ npm install hexo-<span class="built_in">filter</span>-github-emojis <span class="comment">--save</span></span><br></pre></td></tr></tbody></table></figure>
 <span id="more"></span>😀
 <p>向站点配置文件 hexo（你的博客文件夹名）_config.yml 中添加如下设置</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">githubEmojis:</span><br><span class="line">  enable: true</span><br><span class="line">  className: github-emoji</span><br><span class="line">  unicode: true</span><br><span class="line">  styles:</span><br><span class="line">    display: inline</span><br><span class="line">    vertical-align: middle # Freemind适用</span><br><span class="line">  localEmojis:</span><br><span class="line">  </span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">githubEmojis:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">className:</span> <span class="string">github-emoji</span></span><br><span class="line">  <span class="attr">unicode:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">styles:</span></span><br><span class="line">    <span class="attr">display:</span> <span class="string">inline</span></span><br><span class="line">    <span class="attr">vertical-align:</span> <span class="string">middle</span> <span class="comment"># Freemind适用</span></span><br><span class="line">  <span class="attr">localEmojis:</span></span><br><span class="line">  </span><br></pre></td></tr></tbody></table></figure>
 <p>保存好后你可以再你的文章尝试表情<br>在 emoji-cheat-sheet 中找到你想要的表情，然后点击即可复制。使用方法和 GitHub 一样，比如你想发一个笑脸 😄 直接输入笑脸对应的 emoji 编码 :smile： 就可以。<br>🤤😵‍💫🧐🤓👨‍🎤😏🦧🛗⏫</p>
 ]]></content>
       <categories>
@@ -59,19 +199,19 @@
   <entry>
     <title>Spotify 美化指南</title>
     <url>/spotify%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<h1><span id="spotify-美化指南">Spotify 美化指南</span></h1><h2><span id="如何使用插件实现最佳-spotify-界面美化">如何使用插件实现最佳 Spotify 界面美化</span></h2><p>首先你要安装好Spotify，什么版本都行，去官网安装就行了，这个我就不教。</p>
+    <content><![CDATA[<h1 id="Spotify-美化指南"><a href="#Spotify-美化指南" class="headerlink" title="Spotify 美化指南"></a>Spotify 美化指南</h1><h2 id="如何使用插件实现最佳-Spotify-界面美化"><a href="#如何使用插件实现最佳-Spotify-界面美化" class="headerlink" title="如何使用插件实现最佳 Spotify 界面美化"></a>如何使用插件实现最佳 Spotify 界面美化</h2><p>首先你要安装好Spotify，什么版本都行，去官网安装就行了，这个我就不教。</p>
 <span id="more"></span>
 <p>按系统键-打开Windows Powershell文件夹-打Windows Powershell然后复制以下内容去安装。<br>一定是Windows Powershell而不是CMD！！！<br>这个是安装插件程序，一般安装这个他会提醒你要不要下载marketplace 输入Y就会自动下载好就不用复制下面的代码<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/powershell.webp" alt="powershell"></p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight awk"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/spicetify/</span>spicetify-cli<span class="regexp">/master/i</span>nstall.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
 <p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/spotify%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2.webp" alt="spotify安装界面"><br>这个是里面的marketplace 安装这个后你可以在spotify的marketplace里面去安装你想要的主题和功能插件。</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight awk"><table><tbody><tr><td class="code"><pre><span class="line">iwr -useb https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/spicetify/</span>spicetify-marketplace<span class="regexp">/main/</span>resources/install.ps1 | iex </span><br></pre></td></tr></tbody></table></figure>
 <p>安装的时候有报错请看看你有没有挂魔法，没有的话导致下载不了，因为是从github上下载的</p>
-<h1><span id="linux和mac安装spicetify过程">Linux和Mac安装spicetify过程</span></h1><ul>
-<li>打开控制命令台复制以下内容并回车 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">sh curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh| sh</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="Linux和Mac安装spicetify过程"><a href="#Linux和Mac安装spicetify过程" class="headerlink" title="Linux和Mac安装spicetify过程"></a>Linux和Mac安装spicetify过程</h1><ul>
+<li>打开控制命令台复制以下内容并回车 <figure class="highlight awk"><table><tbody><tr><td class="code"><pre><span class="line">curl -fsSL https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/spicetify/</span>spicetify-cli<span class="regexp">/master/i</span>nstall.sh | sh</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">sh</span> curl -fsSL https://raw.githubusercontent.<span class="keyword">com</span>/spicetify/spicetify-marketplace/main/resources/install.<span class="keyword">sh</span>| <span class="keyword">sh</span></span><br></pre></td></tr></tbody></table></figure>
 重新打开spotify 会多出了一个按钮 Marketplace<br>点击一下你就可以看到主题和插件了</li>
 </ul>
-<h1><span id="报错的问题">报错的问题</span></h1><ul>
+<h1 id="报错的问题"><a href="#报错的问题" class="headerlink" title="报错的问题"></a>报错的问题</h1><ul>
 <li>安装的时候显示错误 大概率是你网络没用魔法</li>
 <li>如果是win7以下的系统那就是你的powershell太老得去微软下一个最新的powershell</li>
 <li>安装的时候选择了CMD而不是powershell导致显示’sh’ 不是内部或外部命令，也不是可运行的程序或批处理文件。</li>
@@ -92,11 +232,11 @@
     <content><![CDATA[<p>专辑到了不得发一下，万能青年旅店二专《冀西南林路行》这个专辑做的很好，实体	专辑有小册子没拍出来后续补上。<br>专辑封面还是万青的风格，个人觉得对应上河北墨麒麟。<br>《河北墨麒麟》在音乐编排上也很有特色。歌曲融合了摇滚、民谣等多种元素，旋律富有层次感，逐步推进，情绪渐入高潮。乐队的器乐演奏紧密结合，尤其是吉他和鼓的部分，增强了歌曲的节奏感和力度，为歌词的表达提供了强有力的支撑。</p>
 <span id="more"></span>
 <center>
-    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/黑白.webp" alt="黑白" ` width="50%" height="50%">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/黑白.webp" alt="黑白" `="" width="50%" height="50%">
     <p>专辑封面</p>
-       <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/包装.webp" alt="包装" ` width="50%" height="50%">
+       <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/包装.webp" alt="包装" `="" width="50%" height="50%">
     <p>专辑包装</p>
-     <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/专辑唱片.webp" alt="实体CD" ` width="50%" height="50%">
+     <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/专辑唱片.webp" alt="实体CD" `="" width="50%" height="50%">
     <p>实体CD</p>
 </center>
 
@@ -114,7 +254,7 @@
   <entry>
     <title>世界上第一个网站 World Wide Web</title>
     <url>/%E4%B8%96%E7%95%8C%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-World-Wide-Web/</url>
-    <content><![CDATA[<h1><span id="世界上第一个网站">世界上第一个网站</span></h1><p><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">点我带你进入世界上第一个网站</a></p>
+    <content><![CDATA[<h1 id="世界上第一个网站"><a href="#世界上第一个网站" class="headerlink" title="世界上第一个网站"></a>世界上第一个网站</h1><p><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">点我带你进入世界上第一个网站</a></p>
 <span id="more"></span>
 <blockquote>
 <p>Never help a child with a task at which he feels he can succeed. —- Maria Montessori</p>
@@ -131,17 +271,37 @@
       </tags>
   </entry>
   <entry>
+    <title>域名取消绑定后为什么输入IP网址还是会自动跳转域名？</title>
+    <url>/%E5%9F%9F%E5%90%8D%E5%8F%96%E6%B6%88%E7%BB%91%E5%AE%9A%E5%90%8E%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%93%E5%85%A5IP%E7%BD%91%E5%9D%80%E8%BF%98%E6%98%AF%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%B7%B3%E8%BD%AC%E5%9F%9F%E5%90%8D%EF%BC%9F/</url>
+    <content><![CDATA[<h1 id="域名取消绑定后为什么输入IP网址还是会自动跳转域名？"><a href="#域名取消绑定后为什么输入IP网址还是会自动跳转域名？" class="headerlink" title="域名取消绑定后为什么输入IP网址还是会自动跳转域名？"></a>域名取消绑定后为什么输入IP网址还是会自动跳转域名？</h1><h2 id="可能原因及解决方案"><a href="#可能原因及解决方案" class="headerlink" title="可能原因及解决方案"></a>可能原因及解决方案</h2><h3 id="1-域名服务商未彻底删除IP绑定"><a href="#1-域名服务商未彻底删除IP绑定" class="headerlink" title="1. 域名服务商未彻底删除IP绑定"></a>1. 域名服务商未彻底删除IP绑定</h3><p>如果你的域名服务商没有彻底删除IP绑定信息，IP网址可能依旧与域名关联。你可以检查并删除所有绑定到该IP地址的域名。</p>
+<span id="more"></span>
+<h3 id="2-域名服务商缓存未清理"><a href="#2-域名服务商缓存未清理" class="headerlink" title="2. 域名服务商缓存未清理"></a>2. 域名服务商缓存未清理</h3><p>有时，域名服务商的缓存未及时清理，导致IP地址仍会重定向到域名。请联系你的服务商以清理相关缓存。</p>
+<h3 id="3-服务器上的-URL-重写规则未修改"><a href="#3-服务器上的-URL-重写规则未修改" class="headerlink" title="3. 服务器上的 URL 重写规则未修改"></a>3. 服务器上的 URL 重写规则未修改</h3><p>服务器上的 URL 重写规则（如 Nginx 或 Apache 的 <code>.htaccess</code> 文件）可能未按照正确的地址进行修改，导致IP地址仍然重定向到域名。</p>
+<h4 id="示例：使用-Cloudflare-进行检查和调整"><a href="#示例：使用-Cloudflare-进行检查和调整" class="headerlink" title="示例：使用 Cloudflare 进行检查和调整"></a>示例：使用 Cloudflare 进行检查和调整</h4><ol>
+<li><p>打开 <a href="https://dash.cloudflare.com/">Cloudflare</a> 网站，进入 <strong>DNS</strong> 记录页面，检查是否还有其他域名绑定到你的服务器IP地址，确保所有无关的域名记录都已删除。</p>
+</li>
+<li><p>进入 <strong>缓存</strong> - <strong>配置</strong> - <strong>清除缓存</strong>，选择 <strong>清除所有内容</strong> 以确保缓存已被清理。<br>  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/cloudflare%E7%BC%93%E5%AD%98.webp" alt="cloudflare缓存清理"></p>
+</li>
+<li><p>打开你的Nginx配置文件，确认是否已将绑定的域名更改为IP地址。这样一来，你的IP网址就能正常打开了。</p>
+</li>
+</ol>
+<blockquote>
+<p>以上解决方案基于80端口已开放的公网IP地址。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>歌曲推荐《大石碎胸口》</title>
     <url>/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90%E3%80%8A%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3%E3%80%8B/</url>
-    <content><![CDATA[<h1><span id="歌曲大石碎胸口万能青年旅店">歌曲《大石碎胸口》–万能青年旅店</span></h1><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97%E5%AD%90.webp" alt="万能青年旅店专辑封面"></p>
+    <content><![CDATA[<h1 id="歌曲《大石碎胸口》–万能青年旅店"><a href="#歌曲《大石碎胸口》–万能青年旅店" class="headerlink" title="歌曲《大石碎胸口》–万能青年旅店"></a>歌曲《大石碎胸口》–万能青年旅店</h1><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97%E5%AD%90.webp" alt="万能青年旅店专辑封面"></p>
 <center>万能青年旅店</center>
 <span id="more"></span>
 ## 大石碎胸口
 胸口碎大石出自于《万能青年旅店》同名专辑，该专辑于2010年11月12日发行，其中最出名的是《杀死那个石家庄人》《胸口碎大石》《十万嬉皮》等歌曲，我们就拿《胸口碎大石》来说，这张专辑至今为止发了13年多估计那时候没几个人听，而我在高中的时候听了挺多，那时候最震惊的是这歌还能这么写，旋律也和其他乐队不一样，我之前听很多beyond的歌曲，beyond的歌曲大部分是以容易的旋律，而万年青年旅店融合许多乐器 小号 小提琴 吉他 电吉他 贝斯 口琴 ，歌曲还能讲述那么多内容。还有个疑问为什么不是胸口碎大石而是大石碎胸口呢？
 
 
-<h2><span id="解读大石碎胸口很多">解读大石碎胸口很多</span></h2><p>有的人说是中国的近代史<br>就像一个人一万个读者有一万个哈姆雷特，每个人的看法是不一样的，所以我觉得都是大同小异。<br>从歌词去摸索我们就能知道一些，我还是想说一句万能青年旅店做的歌无论是做词，还是做曲都是很高超，有些歌曲我们一听，可能觉得一般但是你听了几遍之后可能觉得这歌在你闹海边不断唱着。<br>从小学到高中，你的语文老师肯定说如果你读不懂这些课文或者诗词，（别问为什么没有大学，大学很多都是水课）那你就去了解作者这个人的生活背景履历这些，那么我们开始来了解万能青年旅店的履历吧。</p>
-<h3><span id="创作背景">创作背景</span></h3><p><strong>主题与灵感</strong></p>
+<h2 id="解读大石碎胸口很多"><a href="#解读大石碎胸口很多" class="headerlink" title="解读大石碎胸口很多"></a>解读大石碎胸口很多</h2><p>有的人说是中国的近代史<br>就像一个人一万个读者有一万个哈姆雷特，每个人的看法是不一样的，所以我觉得都是大同小异。<br>从歌词去摸索我们就能知道一些，我还是想说一句万能青年旅店做的歌无论是做词，还是做曲都是很高超，有些歌曲我们一听，可能觉得一般但是你听了几遍之后可能觉得这歌在你闹海边不断唱着。<br>从小学到高中，你的语文老师肯定说如果你读不懂这些课文或者诗词，（别问为什么没有大学，大学很多都是水课）那你就去了解作者这个人的生活背景履历这些，那么我们开始来了解万能青年旅店的履历吧。</p>
+<h3 id="创作背景"><a href="#创作背景" class="headerlink" title="创作背景"></a>创作背景</h3><p><strong>主题与灵感</strong></p>
 <ul>
 <li>这首歌的标题和内容借用了中国传统杂技“大石碎胸口”这一意象，暗示了生活中的压力和挑战。</li>
 <li>歌词描绘了一种挣扎与生存的状态，反映了社会底层人民面对生活困境时的无奈与坚持。</li>
@@ -156,15 +316,15 @@
 <li>万青的成员大多来自普通家庭，他们的成长经历和生活体验深刻地影响了他们的创作。</li>
 <li>这首歌表达了他们对生活的理解和对社会现象的观察，带有强烈的个人色彩和时代印记。</li>
 </ul>
-<h3><span id="歌词分析">歌词分析</span></h3><ul>
+<h3 id="歌词分析"><a href="#歌词分析" class="headerlink" title="歌词分析"></a>歌词分析</h3><ul>
 <li>歌词中多次出现“大石碎胸口”这一意象，象征着沉重的生活压力和顽强的生存意志。</li>
 <li>通过细腻的描写和深刻的比喻，歌词传递出一种压抑而坚韧的情感。</li>
 </ul>
-<h3><span id="音乐风格">音乐风格</span></h3><ul>
+<h3 id="音乐风格"><a href="#音乐风格" class="headerlink" title="音乐风格"></a>音乐风格</h3><ul>
 <li>音乐上，这首歌延续了万青一贯的摇滚风格，同时融入了民谣和实验音乐的元素。</li>
 <li>强烈的节奏和富有层次感的编曲，使得整首歌充满力量和感染力。</li>
 </ul>
-<h3><span id="影响与评价">影响与评价</span></h3><ul>
+<h3 id="影响与评价"><a href="#影响与评价" class="headerlink" title="影响与评价"></a>影响与评价</h3><ul>
 <li>《大石碎胸口》自发行以来，受到了乐迷和评论家的广泛好评，被认为是万青最具代表性的作品之一。</li>
 <li>歌曲所传递的情感和思想，引发了许多人的共鸣，成为了那个时代的一种象征。</li>
 </ul>
@@ -196,7 +356,7 @@
   <entry>
     <title>记录一下我入坑linux</title>
     <url>/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%91%E5%85%A5%E5%9D%91linux/</url>
-    <content><![CDATA[<h1><span id="重生之linux初体验">重生之linux初体验</span></h1><p>你们是什么时候入坑linux呢？学习？建站？<br>我那时候是听了Linus Torvalds的故事，那时候还是个小屁孩，听了b站的一个up主讲解linux，然后对linux感兴趣。</p>
+    <content><![CDATA[<h1 id="重生之linux初体验"><a href="#重生之linux初体验" class="headerlink" title="重生之linux初体验"></a>重生之linux初体验</h1><p>你们是什么时候入坑linux呢？学习？建站？<br>我那时候是听了Linus Torvalds的故事，那时候还是个小屁孩，听了b站的一个up主讲解linux，然后对linux感兴趣。</p>
 <span id="more"></span>
 <p>自己后面买了一本《鸟哥的私房菜》学了然后就没怎么看了，可能是命令太枯燥了，没有windows 鼠标点击的便捷 也可能我单纯的不喜欢哈哈，linux那时候入坑的时候大部分都是倒在虚拟机vmware 创建虚拟机的过程，那时候去下iso确实慢，不过等了好久就下好了，到时候出一期虚拟机教程，反正没人看写着玩，第一次 搜索linux的时候大部分出现的是ubuntu，后面好奇了一下去下了一个，那时候的ubuntu桌面化没有现在的直观容易，还是有些不兼容，gnome还行，如果你是用笔记本的话我建议还是用kde桌面，kde会流畅许多，虽然没有gnome可玩性，那时候第一个命令我记得是 cd cp mkdir touch 这些<br>这些都容易理解 来到 ls -al 这些有点费劲 还有chmod 添加权限这些就有点费劲 那时候初中，初中那时候还买了台树莓派，前年卖了还能卖原价，有点好笑。<br>高中那时候遇到了一位做游戏开发的现在他还在上学应该是往开发的方向去走，这个人就牛逼了，高中还会编译linux，那时候的他确实很牛啥都会，他用小米10还是11就开始在手机用docker 编译来运行windows 在手机运行，那时候很佩服，还参加了全国比赛挺牛的这人。大学我都没怎么学这些，因为都在玩，目前linux都是最近才搞，现在搞了一台云服务器<br>装了centos 那种无图形化的 你只能看到这种<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E5%91%BD%E4%BB%A4%E7%95%8C%E9%9D%A2.webp" alt="命令界面"><br>在搞linux的时候可以折腾一天，那时候天天看虽然没什么进步天天谷歌百度，天天找，很多报错的东西，大部分是404，比如你没挂国内的镜像，大部分都是从外网下载，有些是下载不了直接提成error导致你一些软件没安装上，会导致你一系列东西没搞好，就很烦，然后去找google，那时候还流行的一个表情包  google 百度都不会 来群里就是舍近求远<br>那时候还有坑人的 rm -rf 这个命令来坑人 这个命令是来强制删除不提醒 然后删除所有文件导致你所有文件被删除，系统损坏。<br>当你以为你离linux很远的时候，大部分都是linux的设备，地铁站，服务器，安卓系统（经过google的调教和修改变成安装 还是基于linux）嵌入式，机器人，大数据，人工智能，都会有linux的出现。</p>
 ]]></content>
@@ -210,20 +370,20 @@
   <entry>
     <title>记录之前的计划</title>
     <url>/%E8%AE%B0%E5%BD%95%E4%B9%8B%E5%89%8D%E7%9A%84%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<h1><span id="那些事情实现了吗">那些事情实现了吗？</span></h1><ul>
-<li><p><input disabled type="checkbox"> 
+    <content><![CDATA[<h1 id="那些事情实现了吗？"><a href="#那些事情实现了吗？" class="headerlink" title="那些事情实现了吗？"></a>那些事情实现了吗？</h1><ul>
+<li><p><input disabled="" type="checkbox"> 
 <strong>高中时候</strong></p>
 </li>
-<li><p><input checked disabled type="checkbox"> 
+<li><p><input checked="" disabled="" type="checkbox"> 
 创建博客HEXO并发表文章 <a href="https://blog.pw0n.xyz/">博客</a></p>
 </li>
-<li><p><input disabled type="checkbox"> 
+<li><p><input disabled="" type="checkbox"> 
 ESP8266 智能设备</p>
 </li>
-<li><p><input disabled type="checkbox"> 
+<li><p><input disabled="" type="checkbox"> 
 <strong>大学时候</strong></p>
 </li>
-<li><p><input disabled type="checkbox"> 
+<li><p><input disabled="" type="checkbox"> 
 <strong>现在</strong></p>
 </li>
 </ul>
@@ -233,166 +393,6 @@ ESP8266 智能设备</p>
       </categories>
       <tags>
         <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux创建SSH秘钥</title>
-    <url>/Linux%E5%88%9B%E5%BB%BASSH%E7%A7%98%E9%92%A5/</url>
-    <content><![CDATA[<h1><span id="ssh-公钥创建">SSH 公钥创建</span></h1><p>打开你的linux 输入</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C "youremail@email.com"</span><br></pre></td></tr></tbody></table></figure>
-
-<p>“<del><a href="mailto:youremail@email.com">youremail@email.com</a></del>”填写你自己的email 不要填写示例的</p>
-<p>一路回车</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/root/.ssh/id_rsa):</span><br><span class="line">Created directory '/root/.ssh'.</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in /root/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /root/.ssh/id_rsa.pub.</span><br></pre></td></tr></tbody></table></figure>
-
-<p>切换到ssh目录</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cd .ssh</span><br></pre></td></tr></tbody></table></figure>
-
-<p>用cat、 vim、 或者nano 把秘钥复制出来或者在下载到你的电脑上</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cat id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
-
-<p>这样就会显示你的秘钥</p>
-<blockquote>
-<p>懒的调格式了 就这样吧</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VIM编辑器那些坑（一）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1><span id="vim编辑器那些坑一">VIM编辑器那些坑（一）</span></h1><p>我每次用中文输入的时候按ESC每次都会退出不了的问题<br>后面切换英文输入法就能退出 ESC + :  就可以实现了<br>vim 按住ESC后你可以用H,J,KL,四个键 分别代表←↑↓→键，你还可以用翻页按钮PgUP</p>
-<span id="more"></span>
-<p>,PgDn，分别是上下页面，这样你可以实现快速阅览<br>那么用查找的命令是什么呢？<br>习惯用windows的你肯定觉得是ctr + F 其实不是这样的，VIM是 先退出编辑状态 一般按一下ESC键然后 敲打？或者/ 然后在加上你想要的内容<br>比如我想找example关键词+Enter(回车)</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">？example 或者/ example</span><br></pre></td></tr></tbody></table></figure>
-
-<p>OK那么你会用这些经典的用法那么怎么实现保存退出呢？<br>退出可以用</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:q+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>保存则是</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:w+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>那么保存加退出呢？</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>如何实现强制保存和退出呢？那就在后面用到“！”</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ESC+:wq！+Enter</span><br></pre></td></tr></tbody></table></figure>
-
-<p>忘记了一个重要的编辑功能<br>编辑功能不用按ESC 进入你想要的文件或者在你插件的文件时候按入“i”键就可以进入编辑功能，这样你就可以实现编辑功能是不是很方便呢？退出编辑功能直接按ESC就这样可以阅览</p>
-]]></content>
-      <categories>
-        <category>VIM</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VIM编辑器那些坑（二）</title>
-    <url>/VIM%E7%BC%96%E8%BE%91%E5%99%A8%E9%82%A3%E4%BA%9B%E5%9D%91%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<h1><span id="vim编辑器那些坑二">VIM编辑器那些坑(二)</span></h1><h2><span id="vim界外复制">VIM界外复制！！！😕</span></h2><p>遇到从外界复制你是不是以为ctrl+v ，然而vim并不会粘贴，那么要怎么粘贴呢？<br>我们先从外面复制文字 然后 打开vim 在命令模式下 输入:+p这要就能复制到你的内容了<br>如果你用的是Putty或者是Xshell,你可以直接从外界复制，然后到vim点击右键直接复制。</p>
-<h2><span id="vim界内复制和粘贴">VIM界内复制和粘贴</span></h2><span id="more"></span>
-<p>命令模式下 直接输入yy是复制一行 我们直接输入p 就可以往下面粘贴<br>小写p是往下面粘贴 大写P是往上面复制<br>yw在当前行复制 在输入p直接在该行粘贴</p>
-<h2><span id="vim删除该行">VIM删除该行</span></h2><p>dd命令就可以删除<br>怎么删除你想要的行呢？ 输入：1,3 d 这就是表示你要从第一行到第三行删除</p>
-<p>很多人都不知道键盘还有个home键和end键都没用过 这个无论是linux windows mac 都能使用在编辑器下 home就是跳到你该行第一位 end就相反跳到最后一位</p>
-<blockquote>
-<p>学太多反而害了你</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>VIM</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何使用Google Cloud中的SSH远程连接服务器：详细教程</title>
-    <url>/Google-Cloud-SSH%E8%BF%9C%E7%A8%8B%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>打开这个网址<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a><br>找到puttygen.exe (a RSA and DSA key generation utility)，找不到可以直接Ctrl + F 输入puttygen.exe (a RSA and DSA key generation utility)<br>会自动跳转到你找的信息，比如我的是chrome浏览器搜索到是有橙色来提醒找到的目标 找你对应的电脑架构类型下载 x86就下载x86的</p>
-<span id="more"></span>
-<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%E4%B8%8B%E8%BD%BD.webp" alt="puttygen下载"></p>
-<p>下载好打开软件进入</p>
-<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%20%E7%95%8C%E9%9D%A2.webp" alt="puttygen界面"></p>
-<p>点击Generate（tips:点击完不要切换其他程序等待一会 切换其他程序它就会不动！）<br>生成好 需要在Key comment添加的Gmail前面的信息@前面的比如我的是 rsa-key-20240826test（在添加你的gmail前面的信息，比如我的邮箱是<a href="mailto:test@gmail.com">test@gmail.com</a> @前面的比如test你直接加后面就行）<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/puttygen%E7%94%9F%E6%88%90%E5%A5%BD%E7%9A%84.webp" alt="puttygen生成好"><br>然后点击Save private Key 保存到你想要的文件夹<br>然后打开你的Google cloud的Computer Engine在设置里面的“元数据”然后点击SSH秘钥<br>把puttygen的Public key for pasting into OpenSSH authorized keys file:全部内容复制到秘钥里面</p>
-<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/google%20cloud%20%E5%85%83%E6%95%B0%E6%8D%AE%20ssh%E7%A7%98%E9%92%A5.webp" alt="ComputerEngine"></p>
-<p>然后打开你的虚拟机实例 复制你的外部IP<br>下载putty网址还是上面那个直接找到下载可以 找你对应的电脑架构类型下载 x86就下载x86的<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E4%B8%8B%E8%BD%BD.webp" alt="putty下载"></p>
-<p>点击左侧SSH-Auth-Credentials to authenticate with在Private key file for authentication:点击browse选择你刚刚在putty key generator保存ssh秘钥的文件夹。<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE2.webp" alt="putty设置1"><br>点击session在Hostname输入格式 rsa-key-20240826test@外部地址 （tips：rsa-key-20240826test是你在putty key generator软件的key comment 里面而test是你的Gmail前面的 也就是你Gmail@前面）然后你可以点击下方的Open就可以连接到你的服务器<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE1.webp" alt="putty设置2"><br>如果你觉得上面的过程麻烦下次还要按这样操作的话你在上面操作好之后在左侧session 然后saved<br>session填你想要的名称填好点击save下次打开直接选择你tina好的名称就可以链接服务器<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE3.webp" alt="putty设置3"></p>
-<blockquote>
-<p>有问题可以再下方评论，我看到的话会回复</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Google Cloud</category>
-      </categories>
-      <tags>
-        <tag>Google Cloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>域名取消绑定后为什么输入IP网址还是会自动跳转域名？</title>
-    <url>/%E5%9F%9F%E5%90%8D%E5%8F%96%E6%B6%88%E7%BB%91%E5%AE%9A%E5%90%8E%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%93%E5%85%A5IP%E7%BD%91%E5%9D%80%E8%BF%98%E6%98%AF%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%B7%B3%E8%BD%AC%E5%9F%9F%E5%90%8D%EF%BC%9F/</url>
-    <content><![CDATA[<h1><span id="域名取消绑定后为什么输入ip网址还是会自动跳转域名">域名取消绑定后为什么输入IP网址还是会自动跳转域名？</span></h1><h2><span id="可能原因及解决方案">可能原因及解决方案</span></h2><h3><span id="1-域名服务商未彻底删除ip绑定">1. 域名服务商未彻底删除IP绑定</span></h3><p>如果你的域名服务商没有彻底删除IP绑定信息，IP网址可能依旧与域名关联。你可以检查并删除所有绑定到该IP地址的域名。</p>
-<span id="more"></span>
-<h3><span id="2-域名服务商缓存未清理">2. 域名服务商缓存未清理</span></h3><p>有时，域名服务商的缓存未及时清理，导致IP地址仍会重定向到域名。请联系你的服务商以清理相关缓存。</p>
-<h3><span id="3-服务器上的-url-重写规则未修改">3. 服务器上的 URL 重写规则未修改</span></h3><p>服务器上的 URL 重写规则（如 Nginx 或 Apache 的 <code>.htaccess</code> 文件）可能未按照正确的地址进行修改，导致IP地址仍然重定向到域名。</p>
-<h4><span id="示例使用-cloudflare-进行检查和调整">示例：使用 Cloudflare 进行检查和调整</span></h4><ol>
-<li><p>打开 <a href="https://dash.cloudflare.com/">Cloudflare</a> 网站，进入 <strong>DNS</strong> 记录页面，检查是否还有其他域名绑定到你的服务器IP地址，确保所有无关的域名记录都已删除。</p>
-</li>
-<li><p>进入 <strong>缓存</strong> - <strong>配置</strong> - <strong>清除缓存</strong>，选择 <strong>清除所有内容</strong> 以确保缓存已被清理。<br>  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/cloudflare%E7%BC%93%E5%AD%98.webp" alt="cloudflare缓存清理"></p>
-</li>
-<li><p>打开你的Nginx配置文件，确认是否已将绑定的域名更改为IP地址。这样一来，你的IP网址就能正常打开了。</p>
-</li>
-</ol>
-<blockquote>
-<p>以上解决方案基于80端口已开放的公网IP地址。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>Temu特姆一键拒绝调价脚本 不同意调价脚本</title>
-    <url>/Temu%E7%89%B9%E5%A7%86%E4%B8%80%E9%94%AE%E6%8B%92%E7%BB%9D%E8%B0%83%E4%BB%B7-%E4%B8%8D%E5%90%8C%E6%84%8F%E8%B0%83%E4%BB%B7%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>Temu天天弹降价窗所以搞了个一键不同调价的脚本<br>脚本要搭配油猴使用！！！<br>该脚本js脚本 可以直接复制到油猴 也可以直接创建一个文件后缀js的文件<br>然后把内容复制使用文本编辑粘贴上去再拖动到油猴脚本。<br>建议直接在油猴脚本 新建一个脚本 直接复制一下内容！<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/temu.webp" alt="temu右上角"><br>点击右上角开始直接一键不同意调价！！！</p>
-<span id="more"></span> 
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         自动点击不同意</span></span><br><span class="line"><span class="comment">// @namespace    https:www.pw0n.xyz</span></span><br><span class="line"><span class="comment">// @version      0.5</span></span><br><span class="line"><span class="comment">// @description  自动点击指定的元素，并增加开始和暂停按钮</span></span><br><span class="line"><span class="comment">// @author       pw0n</span></span><br><span class="line"><span class="comment">// @match        https://seller.kuajingmaihuo.com/*</span></span><br><span class="line"><span class="comment">// @grant        none</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line"></span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) {</span><br><span class="line">    <span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> isRunning = <span class="literal">false</span>; <span class="comment">// 标记当前状态，是否自动点击</span></span><br><span class="line">    <span class="keyword">let</span> intervalId;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">clickElements</span>(<span class="params">selector</span>) {</span><br><span class="line">        <span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(selector);</span><br><span class="line">        elements.<span class="title function_">forEach</span>(<span class="function"><span class="params">element</span> =&gt;</span> {</span><br><span class="line">            element.<span class="title function_">click</span>();</span><br><span class="line">        });</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">autoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="comment">// 点击class为 RD_textWrapper_5-111-0 的元素</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'div.RD_textWrapper_5-111-0.RD_prevRadio_5-111-0'</span>);</span><br><span class="line">        <span class="comment">// 点击"我已知晓风险，本次不再提醒"的元素</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'div.CBX_textWrapper_5-111-0.CBX_prevCheckSquare_5-111-0'</span>);</span><br><span class="line">        <span class="comment">// 点击确认按钮</span></span><br><span class="line">        <span class="title function_">clickElements</span>(<span class="string">'button[data-tracking-id="zIb_kvR_JvmInKd9"].BTN_outerWrapper_5-111-0.BTN_danger_5-111-0.BTN_medium_5-111-0.BTN_outerWrapperBtn_5-111-0[data-testid="beast-core-button"]'</span>);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">startAutoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">if</span> (!isRunning) {</span><br><span class="line">            <span class="title function_">autoClick</span>(); <span class="comment">// 执行一次点击</span></span><br><span class="line">            intervalId = <span class="built_in">setInterval</span>(autoClick, <span class="number">3000</span>); <span class="comment">// 每3秒执行一次</span></span><br><span class="line">            isRunning = <span class="literal">true</span>;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">stopAutoClick</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">if</span> (isRunning) {</span><br><span class="line">            <span class="built_in">clearInterval</span>(intervalId);</span><br><span class="line">            isRunning = <span class="literal">false</span>;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建按钮</span></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">createControlButtons</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="keyword">const</span> startButton = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">'button'</span>);</span><br><span class="line">        <span class="keyword">const</span> stopButton = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">'button'</span>);</span><br><span class="line"></span><br><span class="line">        startButton.<span class="property">textContent</span> = <span class="string">'开始'</span>;</span><br><span class="line">        stopButton.<span class="property">textContent</span> = <span class="string">'暂停'</span>;</span><br><span class="line"></span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">position</span> = <span class="string">'fixed'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">top</span> = <span class="string">'10px'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">left</span> = <span class="string">'10px'</span>;</span><br><span class="line">        startButton.<span class="property">style</span>.<span class="property">zIndex</span> = <span class="string">'9999'</span>;</span><br><span class="line"></span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">position</span> = <span class="string">'fixed'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">top</span> = <span class="string">'10px'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">left</span> = <span class="string">'70px'</span>;</span><br><span class="line">        stopButton.<span class="property">style</span>.<span class="property">zIndex</span> = <span class="string">'9999'</span>;</span><br><span class="line"></span><br><span class="line">        startButton.<span class="title function_">addEventListener</span>(<span class="string">'click'</span>, startAutoClick);</span><br><span class="line">        stopButton.<span class="title function_">addEventListener</span>(<span class="string">'click'</span>, stopAutoClick);</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(startButton);</span><br><span class="line">        <span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(stopButton);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 页面加载后创建按钮</span></span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>) {</span><br><span class="line">        <span class="title function_">createControlButtons</span>();</span><br><span class="line">    };</span><br><span class="line">})();</span><br></pre></td></tr></tbody></table></figure>
-<blockquote>
-<p>劝退正常人的平台</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>跨境电商</category>
-        <category>TEMU</category>
-      </categories>
-      <tags>
-        <tag>TEMU</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spotify 美化插件之歌词界面毛玻璃效果</title>
-    <url>/Spotify-%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<p><strong>声明</strong>：以下安装美化需要有spicetify-cli和spicetify-marketplace插件如果没有就只能看我以往的spotify美化教程<br>不懂安装的插件的点击这里看我之前的文章讲解 <a href="/spotify%E7%BE%8E%E5%8C%96/" title="Spotify 美化指南">Spotify 美化指南</a><br><strong>如何安装？</strong></p>
-<h3><span id="直接从spotify-marketplace-extensions-找到beautiful-lyrics安装-你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果">直接从spotify-marketplace-Extensions 找到beautiful lyrics安装 你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果</span></h3><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6.webp" alt="安装教程"></p>
-<span id="more"></span>
-<h3><span id="第二种在powershell-安装-beautiful-lyrics-输入一下内容">第二种在powershell 安装 beautiful lyrics 输入一下内容</span></h3><figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">spicetify config custom_apps</span><br><span class="line">spicetify apply</span><br></pre></td></tr></tbody></table></figure>
-<p>美化歌词推荐：beautiful lyrics 有毛玻璃效果<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E6%95%88%E6%9E%9C%E5%9B%BE.webp" alt="美化效果"><br>再次打开客户端就可以看到效果</p>
-<blockquote>
-<p>tips:有些歌曲在spotify是无法看到歌词。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Spotify</category>
-      </categories>
-      <tags>
-        <tag>Spotify</tag>
       </tags>
   </entry>
 </search>
