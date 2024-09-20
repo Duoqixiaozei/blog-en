@@ -376,4 +376,23 @@ ESP8266 智能设备</p>
         <tag>TEMU</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Spotify 美化插件之歌词界面毛玻璃效果</title>
+    <url>/Spotify-%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p><strong>声明</strong>：以下安装美化需要有spicetify-cli和spicetify-marketplace插件如果没有就只能看我以往的spotify美化教程<br>不懂安装的插件的点击这里看我之前的文章讲解 <a href="/spotify%E7%BE%8E%E5%8C%96/" title="Spotify 美化指南">Spotify 美化指南</a><br><strong>如何安装？</strong></p>
+<h3><span id="直接从spotify-marketplace-extensions-找到beautiful-lyrics安装-你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果">直接从spotify-marketplace-Extensions 找到beautiful lyrics安装 你就可以看到下面的多出了一个麦克风的图标点击就可以看到效果</span></h3><p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E7%BE%8E%E5%8C%96%E6%8F%92%E4%BB%B6.webp" alt="安装教程"></p>
+<span id="more"></span>
+<h3><span id="第二种在powershell-安装-beautiful-lyrics-输入一下内容">第二种在powershell 安装 beautiful lyrics 输入一下内容</span></h3><figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">spicetify config custom_apps</span><br><span class="line">spicetify apply</span><br></pre></td></tr></tbody></table></figure>
+<p>美化歌词推荐：beautiful lyrics 有毛玻璃效果<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E6%95%88%E6%9E%9C%E5%9B%BE.webp" alt="美化效果"><br>再次打开客户端就可以看到效果</p>
+<blockquote>
+<p>tips:有些歌曲在spotify是无法看到歌词。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Spotify</category>
+      </categories>
+      <tags>
+        <tag>Spotify</tag>
+      </tags>
+  </entry>
 </search>
