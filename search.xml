@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Google Baidu Bing SEO redirection problems</title>
+    <title>Solving SEO Redirection Issues on Google, Baidu, and Bing</title>
     <url>/Google%20Baidu%20Bing%20SEO%20redirection%20problems/</url>
-    <content><![CDATA[<p>What is the reason that # SEO shows that a web page will be redirected automatically?<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/重定向.webp" widtht="50%" height="50%" alt="chongdingxiang" data-loaded="true"></p>
+    <content><![CDATA[<p>Search engines like Google, Baidu, and Bing sometimes show that a webpage is being <strong>automatically redirected</strong>. This can harm your site’s SEO performance and user experience. In this article, we’ll explore common causes of redirection issues and how to solve them.</p>
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/重定向.webp" width="50%" height="50%" alt="SEO Redirection Issue" data-loaded="true">
+
 <span id="more"></span>
 
-<h2 id="The-domain-name-is-bound-to-two-on-the-site"><a href="#The-domain-name-is-bound-to-two-on-the-site" class="headerlink" title="The domain name is bound to two on the site"></a>The domain name is bound to two on the site</h2><p>Go to the service provider DNS to remove one for example, I will use a <a href="http://www.yourdomainame.com/">www.yourdomainame.com</a> bind to the site with this to bind, you can use CNAME or A to record.</p>
-<h2 id="Whether-to-fill-in-the-server-DNS-correctly"><a href="#Whether-to-fill-in-the-server-DNS-correctly" class="headerlink" title="Whether to fill in the server DNS correctly"></a>Whether to fill in the server DNS correctly</h2><p>To correctly fill in the server DNS of your domain name, not just fill in that one, if it is a github page, create a CNAME file in the root directory and write your website, for example, <a href="http://www.yourdomainame.com/">www.yourdomainame.com</a>, create a good upload, then it’s done.</p>
-<h2 id="Determine-whether-https"><a href="#Determine-whether-https" class="headerlink" title="Determine whether https"></a>Determine whether https</h2><p>This is very important, you have to see what format your website is most of the https, if it is https no SSL certificate can be your domain name hosted to cloudflare can be free SSL certificate can also use cloudflare cdn, most of the domestic is in the service provider to buy SSL certificate.</p>
+<h2 id="1-Binding-Multiple-Domains-to-One-Site"><a href="#1-Binding-Multiple-Domains-to-One-Site" class="headerlink" title="1. Binding Multiple Domains to One Site"></a>1. Binding Multiple Domains to One Site</h2><p>One common cause of redirection issues is when multiple domain names are bound to the same website. Here’s how to fix it:</p>
+<ul>
+<li><strong>Solution</strong>: Go to your DNS service provider and remove the unnecessary domain binding. For instance, if you have both <code>www.yourdomain.com</code> and <code>yourdomain.com</code> bound to the same site, choose one (usually <code>www.yourdomain.com</code>) to be the primary binding. You can set this up using a <strong>CNAME</strong> or <strong>A record</strong>.</li>
+</ul>
+<h2 id="2-Incorrect-DNS-Configuration"><a href="#2-Incorrect-DNS-Configuration" class="headerlink" title="2. Incorrect DNS Configuration"></a>2. Incorrect DNS Configuration</h2><p>Another possible cause is incorrect DNS settings. This can prevent search engines from properly indexing your site and cause unnecessary redirects.</p>
+<ul>
+<li><strong>Solution</strong>: Ensure that the DNS records for your server are correctly configured. If you’re hosting your site on <strong>GitHub Pages</strong>, create a <code>CNAME</code> file in the root directory of your repository with your domain name, such as <code>www.yourdomain.com</code>. Upload the file to complete the configuration.</li>
+</ul>
+<h2 id="3-HTTPS-and-SSL-Certificate-Issues"><a href="#3-HTTPS-and-SSL-Certificate-Issues" class="headerlink" title="3. HTTPS and SSL Certificate Issues"></a>3. HTTPS and SSL Certificate Issues</h2><p>One of the most important factors in modern SEO is ensuring your site uses <strong>HTTPS</strong>. If your site doesn’t have a valid SSL certificate, it can trigger redirects or display security warnings.</p>
+<ul>
+<li><strong>Solution</strong>: Make sure your site is using HTTPS by obtaining an SSL certificate. You can get a free SSL certificate by hosting your domain on <strong>Cloudflare</strong>, which also provides CDN services. Alternatively, you can purchase an SSL certificate from your domain registrar or hosting provider.</li>
+</ul>
+<hr>
+<p>By addressing these common issues, you can resolve SEO redirection problems, improve user experience, and boost your search engine rankings.</p>
 ]]></content>
       <categories>
         <category>SEO</category>
       </categories>
       <tags>
-        <tag>SEO</tag>
+        <tag>SEO, Redirection, Domain, HTTPS, SSL</tag>
       </tags>
   </entry>
   <entry>
@@ -42,46 +55,84 @@
       </tags>
   </entry>
   <entry>
-    <title>How to use the vim (A)</title>
+    <title>Common Pitfalls in Vim-Input Method, Navigation, and Saving Files</title>
     <url>/How%20to%20use%20the%20vim%20(A)/</url>
-    <content><![CDATA[<p>** VIM editor those pitfalls (A)**</p>
-<p>Whenever I press ESC while typing in Chinese, I can’t exit every time.<br>If you switch to English input method later, you can exit ESC + :, then you can realize it.<br>vim After holding down ESC, you can use H,J,KL, four keys to represent the ←↑↓→ keys, and you can also use the page flip button PgUP.</p>
+    <content><![CDATA[<h1 id="Common-Pitfalls-in-Vim-Input-Method-Navigation-and-Saving-Files"><a href="#Common-Pitfalls-in-Vim-Input-Method-Navigation-and-Saving-Files" class="headerlink" title="Common Pitfalls in Vim: Input Method, Navigation, and Saving Files"></a>Common Pitfalls in Vim: Input Method, Navigation, and Saving Files</h1><p>Vim is a highly efficient text editor, but many users encounter pitfalls, especially when switching between different input methods or trying to perform basic tasks like searching and saving. In this article, we’ll cover some common issues, and provide solutions to navigate Vim more effectively.</p>
 <span id="more"></span>
-<p>PgDn, respectively, up and down the page so that you can achieve a quick look at the<br>So what is the command to find?<br>If you are used to windows, you must think it is ctr + F. Actually it is not like that, VIM is to exit the editing state first, usually press the ESC key and then hit ? or / and then add what you want.<br>For example, I want to find the example keyword + Enter.</p>
-<figure class="highlight maxima"><table><tbody><tr><td class="code"><pre><span class="line">？<span class="built_in">example</span> <span class="keyword">or</span>/ <span class="built_in">example</span></span><br></pre></td></tr></tbody></table></figure>
 
-<p>OK so you will use these classic uses then how to realize the save exit?<br>Exit can be accomplished with the</p>
-<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:q+Enter</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>Saving is </p>
-<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:w+Enter</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>What about save plus quit?</p>
-<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:wq+Enter</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>How do you implement force save and exit? Then use “!” later.</p>
-<figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line"><span class="title class_">ESC</span>+<span class="symbol">:wq</span>！+<span class="title class_">Enter</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>Forgot an important editing function<br>Edit function do not have to press ESC to enter the file you want or in your plug-in file when you press the “i” key can enter the edit function, so you can realize the edit function is not very convenient? Exit the editing function directly press ESC so that you can read!</p>
+<h2 id="Switching-Between-Input-Methods-in-Vim"><a href="#Switching-Between-Input-Methods-in-Vim" class="headerlink" title="Switching Between Input Methods in Vim"></a>Switching Between Input Methods in Vim</h2><p>When typing in Chinese or other non-English languages, pressing <code>ESC</code> might not immediately exit <strong>insert mode</strong>. Here’s a solution:</p>
+<ol>
+<li><strong>Problem</strong>: Pressing <code>ESC</code> while typing in Chinese doesn’t exit insert mode.</li>
+<li><strong>Solution</strong>: First, switch to the English input method. Then press <code>ESC</code> followed by <code>:</code> to enter command mode, allowing you to execute commands as usual.</li>
+</ol>
+<h2 id="Vim-Navigation-with-H-J-K-L-Keys"><a href="#Vim-Navigation-with-H-J-K-L-Keys" class="headerlink" title="Vim Navigation with H, J, K, L Keys"></a>Vim Navigation with H, J, K, L Keys</h2><p>After pressing <code>ESC</code> in Vim, you can use the following keys to navigate without relying on the arrow keys:</p>
+<ul>
+<li><code>H</code> = Left (<code>←</code>)</li>
+<li><code>J</code> = Down (<code>↓</code>)</li>
+<li><code>K</code> = Up (<code>↑</code>)</li>
+<li><code>L</code> = Right (<code>→</code>)</li>
+</ul>
+<p>You can also use <strong>PgUp</strong> and <strong>PgDn</strong> to scroll up and down a page quickly.</p>
+<h2 id="Searching-in-Vim-Use-and-Commands"><a href="#Searching-in-Vim-Use-and-Commands" class="headerlink" title="Searching in Vim: Use ? and / Commands"></a>Searching in Vim: Use <code>?</code> and <code>/</code> Commands</h2><p>When searching in Vim, many users coming from Windows expect to use <code>Ctrl+F</code>. However, Vim has its own search commands:</p>
+<ul>
+<li><p>First, exit insert mode by pressing <code>ESC</code>.</p>
+</li>
+<li><p>Use <code>?</code> or <code>/</code> followed by your search term to search within the file:</p>
+<pre class=" language-vim"><code class="language-vim"><span class="token operator">?</span>example
+<span class="token operator">/</span>example
+</code></pre>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>VIM</category>
       </categories>
       <tags>
         <tag>vim</tag>
-        <tag>study</tag>
       </tags>
   </entry>
   <entry>
-    <title>How to use the vim (B)</title>
+    <title>How to Use Vim Mastering Copy, Paste, and Deletion in Vim</title>
     <url>/How%20to%20use%20the%20vim%20(B)/</url>
-    <content><![CDATA[<h1 id="How-to-use-the-vim-B"><a href="#How-to-use-the-vim-B" class="headerlink" title="How to use the vim (B)"></a>How to use the vim (B)</h1><h2 id="VIM-out-of-bounds-copy-😕"><a href="#VIM-out-of-bounds-copy-😕" class="headerlink" title="VIM out of bounds copy!!! 😕"></a>VIM out of bounds copy!!! 😕</h2><p>When it comes to copying from the outside world do you think ctrl+v, however vim doesn’t paste, so how do you paste it?<br>We first copy the text from the outside, then we open vim and type :+p in command mode to copy it to you.<br>If you’re using Putty or Xshell, you can copy directly from the outside, then right click in vim to copy directly.</p>
-<h2 id="VIM-in-bounds-copy-and-paste"><a href="#VIM-in-bounds-copy-and-paste" class="headerlink" title="VIM in-bounds copy and paste"></a>VIM in-bounds copy and paste</h2><span id="more"></span>
-<p>In command mode, typing yy directly copies a line, so we type p directly to paste down.<br>Lowercase p copies down, upper case p copies up.<br>yw copies on the current line, and when we type p, we paste directly on that line.</p>
-<h2 id="VIM-deletes-the-line"><a href="#VIM-deletes-the-line" class="headerlink" title="VIM deletes the line"></a>VIM deletes the line</h2><p>The dd command deletes it.<br>How do you delete the line you want? Type: 1,3 d This means you want to delete from the first to the third line.</p>
-<p>A lot of people don’t know that there’s a home key and an end key on the keyboard and they don’t even use them, but this works on linux, windows, mac, and in the editor, home means jumping to the first position of your line, and end means the opposite, jumping to the last position, so you can delete the line you want.</p>
+    <content><![CDATA[<p>Vim is a powerful text editor used by developers, but mastering its unique commands can be challenging. In this guide, we’ll explore how to efficiently copy, paste, and delete lines in Vim, both within and outside the editor.</p>
+<h2 id="How-to-Copy-and-Paste-from-External-Sources-in-Vim"><a href="#How-to-Copy-and-Paste-from-External-Sources-in-Vim" class="headerlink" title="How to Copy and Paste from External Sources in Vim"></a>How to Copy and Paste from External Sources in Vim</h2><p>When working with external sources, you might be tempted to use <code>Ctrl+V</code> to paste content into Vim, but Vim handles pasting differently.</p>
+<span id="more"></span>
+<h3 id="Steps-to-Copy-from-External-Sources"><a href="#Steps-to-Copy-from-External-Sources" class="headerlink" title="Steps to Copy from External Sources:"></a>Steps to Copy from External Sources:</h3><ol>
+<li><strong>Copy the text</strong> from the external source (e.g., another program or terminal).</li>
+<li>Open Vim and switch to <strong>command mode</strong> by pressing <code>Esc</code>.</li>
+<li>Use <code>:+p</code> to paste the copied content into your current file.</li>
+</ol>
+<p>If you’re using terminal emulators like <strong>Putty</strong> or <strong>Xshell</strong>, you can right-click inside the Vim window to directly paste the content without switching modes.</p>
+<h2 id="How-to-Copy-and-Paste-Within-Vim"><a href="#How-to-Copy-and-Paste-Within-Vim" class="headerlink" title="How to Copy and Paste Within Vim"></a>How to Copy and Paste Within Vim</h2><p>For copying and pasting within Vim, you can use several built-in commands:</p>
+<ul>
+<li>To <strong>copy a line</strong>, simply type <code>yy</code> in <strong>normal mode</strong>.  </li>
+<li>To <strong>paste below</strong> the copied line, type <code>p</code>.  </li>
+<li>To <strong>paste above</strong>, type <code>P</code> (uppercase).</li>
+</ul>
+<p>You can also copy specific words or sections of a line:</p>
+<ul>
+<li>Typing <code>yw</code> copies the word under the cursor.</li>
+<li>Then, typing <code>p</code> pastes the word in the desired location.</li>
+</ul>
+<h3 id="Copying-Multiple-Lines"><a href="#Copying-Multiple-Lines" class="headerlink" title="Copying Multiple Lines"></a>Copying Multiple Lines</h3><p>To copy multiple lines, use the following steps:</p>
+<ol>
+<li>Move the cursor to the first line you want to copy.</li>
+<li>Type the number of lines followed by <code>yy</code>. For example, <code>3yy</code> copies the next three lines.</li>
+</ol>
+<h2 id="How-to-Delete-Lines-in-Vim"><a href="#How-to-Delete-Lines-in-Vim" class="headerlink" title="How to Delete Lines in Vim"></a>How to Delete Lines in Vim</h2><p>Vim’s delete commands are powerful for removing lines or specific sections of text.</p>
+<ul>
+<li><strong>Delete a line</strong>: Type <code>dd</code> in <strong>normal mode</strong> to delete the current line.</li>
+<li>To <strong>delete multiple lines</strong>, specify the range. For example, to delete lines 1 to 3, type <code>:1,3d</code> and press <strong>Enter</strong>.</li>
+</ul>
+<h3 id="Tips-for-Efficient-Line-Navigation"><a href="#Tips-for-Efficient-Line-Navigation" class="headerlink" title="Tips for Efficient Line Navigation"></a>Tips for Efficient Line Navigation</h3><p>Many users overlook the <strong>Home</strong> and <strong>End</strong> keys on their keyboards. These keys are particularly useful for quickly jumping to the beginning or end of a line:</p>
+<ul>
+<li>Press <strong>Home</strong> to jump to the start of the current line.</li>
+<li>Press <strong>End</strong> to jump to the end.</li>
+</ul>
+<p>These shortcuts are available on Linux, Windows, macOS, and within Vim itself, making navigation and editing faster.</p>
+<hr>
 <blockquote>
-<p>good good study day day up</p>
+<p>Keep practicing these Vim commands and you’ll improve your efficiency in no time. As the old saying goes: “Good, good study; day, day up!”</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -92,24 +143,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux Create SSH Secret Key</title>
+    <title>How to Create an SSH Secret Key on Linux</title>
     <url>/Linux%20Create%20SSH%20Secret%20Key/</url>
-    <content><![CDATA[<h1 id="SSH-public-key-creation"><a href="#SSH-public-key-creation" class="headerlink" title="SSH public key creation"></a>SSH public key creation</h1><p>Open your linux and type</p>
-<p>``<br>ssh-keygen -t rsa -C “<a href="mailto:youremail@email.com">youremail@email.com</a>”</p>
-<figure class="highlight armasm"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">“~~youremail<span class="comment">@email.com~~” Fill in your own email, not the example one.</span></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-<p>Enter all the way.</p>
-<span id="more"></span>
-<p>Enter the file where the key is stored (/root/.shsh/id_rsa):<br>Directory ‘/root/.ssh’ has been created.<br>Enter the passphrase (empty if no passphrase):<br>Enter the same passphrase again:<br>Your identity information has been saved in /root/.ssh/id_rsa.<br>Your public key has been saved in /root/.ssh/id_rsa.pub.</p>
-<p>Switch to the ssh directory</p>
-<figure class="highlight jboss-cli"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">.ssh</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>Use cat, vim, or nano to copy the key or download it to your computer.</p>
+    <content><![CDATA[<h1 id="How-to-Create-an-SSH-Secret-Key-on-Linux"><a href="#How-to-Create-an-SSH-Secret-Key-on-Linux" class="headerlink" title="How to Create an SSH Secret Key on Linux"></a>How to Create an SSH Secret Key on Linux</h1><p>Creating an SSH key pair is an essential step for secure remote access to servers. In this guide, we will walk you through the process of generating an SSH secret key on a Linux system, ensuring that you can connect securely without using passwords.</p>
+<h2 id="Step-by-Step-Guide-to-Generate-an-SSH-Key-Pair"><a href="#Step-by-Step-Guide-to-Generate-an-SSH-Key-Pair" class="headerlink" title="Step-by-Step Guide to Generate an SSH Key Pair"></a>Step-by-Step Guide to Generate an SSH Key Pair</h2><span id="more"></span>
+<h3 id="Step-1-Open-Your-Terminal"><a href="#Step-1-Open-Your-Terminal" class="headerlink" title="Step 1: Open Your Terminal"></a>Step 1: Open Your Terminal</h3><p>Begin by opening your terminal application on your Linux system. This is where you’ll enter the commands needed to generate your SSH key.</p>
+<h3 id="Step-2-Generate-the-SSH-Key-Pair"><a href="#Step-2-Generate-the-SSH-Key-Pair" class="headerlink" title="Step 2: Generate the SSH Key Pair"></a>Step 2: Generate the SSH Key Pair</h3><p>To create a new SSH key pair, type the following command into your terminal:</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail@email.com"</span></span><br></pre></td></tr></tbody></table></figure>
+<p>Make sure to replace “<a href="mailto:youremail@email.com">youremail@email.com</a>“ with your actual email address. This email address helps identify your key and can be useful for reference.</p>
+<h3 id="Step-3-Follow-the-Prompts"><a href="#Step-3-Follow-the-Prompts" class="headerlink" title="Step 3: Follow the Prompts"></a>Step 3: Follow the Prompts</h3><p>After entering the command, you will be prompted to provide some information. Simply press Enter to accept the default options for each prompt:</p>
+<figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">Enter the <span class="keyword">file</span> in which <span class="keyword">to</span> save the key (/root/.ssh/id_rsa):</span><br><span class="line">Directory <span class="string">'/root/.ssh'</span> <span class="built_in">has</span> been created.</span><br><span class="line">Enter passphrase (<span class="built_in">empty</span> <span class="keyword">for</span> <span class="keyword">no</span> passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identity <span class="built_in">has</span> been saved in /root/.ssh/id_rsa.</span><br><span class="line">Your public key <span class="built_in">has</span> been saved in /root/.ssh/id_rsa.pub.</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li><strong>File Location:</strong> Press <strong>Enter</strong> to save the key in the default location (/root/.ssh/id_rsa), or specify a different path if desired.</li>
+<li><strong>Passphrase:</strong> Adding a passphrase increases security. If you prefer not to use one, just press <strong>Enter</strong> to leave it blank.</li>
+</ul>
+<h3 id="Step-4-Navigate-to-the-SSH-Directory"><a href="#Step-4-Navigate-to-the-SSH-Directory" class="headerlink" title="Step 4: Navigate to the SSH Directory"></a>Step 4: Navigate to the SSH Directory</h3><p>Once the key is generated, navigate to the <code>.ssh</code> directory where your keys are stored:</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="Step-5-Display-Your-Public-Key"><a href="#Step-5-Display-Your-Public-Key" class="headerlink" title="Step 5: Display Your Public Key"></a>Step 5: Display Your Public Key</h3><p>To view your newly generated public key, use the <code>cat</code> command:</p>
 <figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
-
-<p>This will show you your key.</p>
+<p>This command will display your public key in the terminal, allowing you to copy it directly for later use.</p>
 <blockquote>
-<p>Don’t bother formatting it, just do it.</p>
+<p><strong>Note</strong>: Don’t worry about formatting; simply copy the key as it appears.</p>
 </blockquote>
+<h3 id="Step-6-Use-Your-Public-Key-for-Secure-Connections"><a href="#Step-6-Use-Your-Public-Key-for-Secure-Connections" class="headerlink" title="Step 6: Use Your Public Key for Secure Connections"></a>Step 6: Use Your Public Key for Secure Connections</h3><p>Now that you have your public key, you can add it to your remote server’s <code>~/.ssh/authorized_keys file</code>. This enables you to connect to your server securely without needing to enter a password each time.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>You’ve successfully created an SSH secret key on your Linux system! This key pair enhances the security of your remote connections, making it easier to manage your servers without compromising safety. By following these steps, you’ll be well on your way to secure server access using SSH. Always keep your private key secure and consider using SSH config files for easier management of multiple keys and hosts.</p>
+<p>By implementing these practices, you’ll ensure a robust and secure connection to your remote servers.</p>
 ]]></content>
       <categories>
         <category>Linux</category>
@@ -117,19 +175,48 @@
       <tags>
         <tag>Linux</tag>
         <tag>SSH</tag>
+        <tag>SSH Key Generation</tag>
+        <tag>Secure Access</tag>
       </tags>
   </entry>
   <entry>
-    <title>Linux putty remote tool</title>
+    <title>Putty for Linux</title>
     <url>/Linux%20putty%20remote%20tool/</url>
-    <content><![CDATA[<p><strong>Putty for Linux</strong></p>
-<p>If you don’t know where to download <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">click me to download</a> choose your system version For example, windows-64 bit just download the corresponding one.<br>Download and open it directly.<br>Input your server IP address in hostname and login on port 22 by default.<br>I wrote 192.168.1.1 for demo, not for real, this is for LAN routing, don’t follow me, write it according to your server ip!</p>
-<p>! <a href="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty1.webp">putty</a><br>&lt;! –more–&gt;</p>
-<p>Before you open it, do these things.<br>Inside the connection, find second between keepalive and set it to 30.<br>! <a href="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty2.webp">putty2</a><br>Then go back to the home page and click save so you don’t have to enter your server IP and other options when you open it later.<br>! <a href="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty3.webp">putty3</a></p>
+    <content><![CDATA[<h1 id="How-to-Use-Putty-for-Linux-Step-by-Step-Guide"><a href="#How-to-Use-Putty-for-Linux-Step-by-Step-Guide" class="headerlink" title="How to Use Putty for Linux: Step-by-Step Guide"></a>How to Use Putty for Linux: Step-by-Step Guide</h1><p>Putty is a widely used SSH client that allows you to remotely access Linux servers. In this guide, I’ll walk you through how to download, configure, and use Putty for Linux. Whether you’re accessing a server on your LAN or a remote server, these instructions will help you get set up quickly.</p>
+<span id="more"></span>
+<h2 id="Downloading-Putty"><a href="#Downloading-Putty" class="headerlink" title="Downloading Putty"></a>Downloading Putty</h2><p>If you’re not sure where to download Putty, you can <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">click here to download Putty</a>. Choose the version that corresponds to your operating system. For example, if you’re using <strong>Windows 64-bit</strong>, download the <strong>Windows 64-bit</strong> version.</p>
+<p>Once downloaded, simply open the file to start using Putty.</p>
+<h2 id="Setting-Up-Your-Server-Connection-in-Putty"><a href="#Setting-Up-Your-Server-Connection-in-Putty" class="headerlink" title="Setting Up Your Server Connection in Putty"></a>Setting Up Your Server Connection in Putty</h2><ol>
+<li><p><strong>Input your server’s IP address</strong> into the <strong>Hostname</strong> field. By default, you’ll connect over port 22 for SSH access. </p>
+<p>For demonstration purposes, I’m using <code>192.168.1.1</code>, which is a LAN IP address. Make sure to enter your actual server IP address.</p>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty1.webp" alt="putty setup"></p>
+</li>
+<li><p><strong>Before you click Open</strong>, let’s configure a few more settings to improve your connection stability.</p>
+</li>
+</ol>
+<h2 id="Keep-Your-Connection-Alive"><a href="#Keep-Your-Connection-Alive" class="headerlink" title="Keep Your Connection Alive"></a>Keep Your Connection Alive</h2><p>To avoid disconnection issues, it’s recommended to set a keepalive interval:</p>
+<ol>
+<li><p>Navigate to the <strong>Connection</strong> settings.</p>
+</li>
+<li><p>In the <strong>Seconds between keepalives</strong> field, set the value to <code>30</code>. This ensures that your session remains active even if there’s no data being transmitted.</p>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty2.webp" alt="putty keepalive"></p>
+</li>
+</ol>
+<h2 id="Save-Your-Connection-Settings"><a href="#Save-Your-Connection-Settings" class="headerlink" title="Save Your Connection Settings"></a>Save Your Connection Settings</h2><p>To save time in the future, you can save your session details so you don’t have to re-enter your server IP and configurations every time:</p>
+<ol>
+<li><p>After setting up your IP and keepalive settings, return to the <strong>Session</strong> screen.</p>
+</li>
+<li><p>Enter a name for your session in the <strong>Saved Sessions</strong> field.</p>
+</li>
+<li><p>Click <strong>Save</strong>. Now, whenever you open Putty, you can simply load your saved session and skip re-entering the connection details.</p>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/putty3.webp" alt="putty save session"></p>
+</li>
+</ol>
 <blockquote>
-<p>try</p>
+<p>Try using these settings to improve your Putty experience!</p>
 </blockquote>
-<p>Translated with <a href="http://www.deepl.com/Translator">www.DeepL.com/Translator</a> (free version)</p>
+<hr>
+<p>By following these steps, you’ll ensure a smoother and more reliable SSH connection to your Linux server using Putty. Don’t forget to save your configurations to make future logins quicker!</p>
 ]]></content>
       <categories>
         <category>Linux</category>
@@ -139,44 +226,67 @@
       </tags>
   </entry>
   <entry>
-    <title>Why does the domain name still automatically jump to the domain name when I enter the IP address after the domain name is unbound?</title>
+    <title>Why Does the Domain Still Redirect After Unbinding from IP?</title>
     <url>/Reasons%20for%20IP%20jumps%20not%20to%20the%20correct%20site/</url>
-    <content><![CDATA[<p><strong>Why the domain name is still automatically redirected to the domain name after the domain name is unbound?</strong></p>
-<h2 id="Possible-causes-and-solutions"><a href="#Possible-causes-and-solutions" class="headerlink" title="Possible causes and solutions"></a>Possible causes and solutions</h2><h2 id="Your-domain-name-service-provider-has-not-completely-removed-the-IP-binding"><a href="#Your-domain-name-service-provider-has-not-completely-removed-the-IP-binding" class="headerlink" title="Your domain name service provider has not completely removed the IP binding."></a>Your domain name service provider has not completely removed the IP binding.</h2><p>If your domain name service provider has not completely removed the IP binding information, the IP address may still be associated with the domain name. You can check and remove all the domain names bound to that IP address.</p>
-<span id="more"></span>
-<h2 id="Domain-Name-Service-Provider-Cache-Not-Cleared"><a href="#Domain-Name-Service-Provider-Cache-Not-Cleared" class="headerlink" title="Domain Name Service Provider Cache Not Cleared"></a>Domain Name Service Provider Cache Not Cleared</h2><p>Sometimes, the cache of domain name service provider is not cleared in time, resulting in the IP address still redirecting to the domain name. Please contact your service provider to clear the cache.</p>
-<h2 id="URL-rewrite-rules-on-the-server-are-not-modified"><a href="#URL-rewrite-rules-on-the-server-are-not-modified" class="headerlink" title="URL rewrite rules on the server are not modified"></a>URL rewrite rules on the server are not modified</h2><p>URL rewrite rules on the server (e.g. Nginx or Apache <code>.htaccess</code> files) may not be modified to the correct address, resulting in IP addresses still redirecting to the domain name.</p>
-<h2 id="Example-Checking-and-tuning-with-Cloudflare"><a href="#Example-Checking-and-tuning-with-Cloudflare" class="headerlink" title="Example: Checking and tuning with Cloudflare"></a>Example: Checking and tuning with Cloudflare</h2><ol>
-<li><p>Open <a href="https://dash.cloudflare.com/">Cloudflare</a> website，go into <strong>DNS</strong> Records page, check to see if there are any other domains bound to your server’s IP address, and make sure that all extraneous domain records have been deleted.</p>
+    <content><![CDATA[<p><strong>Why does the domain name still automatically redirect to the domain after unbinding the IP address?</strong> This issue can be confusing, especially after you believe the domain and IP are no longer linked. Below, we will explore some of the common reasons for this behavior and how to fix it.</p>
+<h2 id="Possible-Causes-and-Solutions"><a href="#Possible-Causes-and-Solutions" class="headerlink" title="Possible Causes and Solutions"></a>Possible Causes and Solutions</h2><span id="more"></span>
+<h3 id="1-Incomplete-IP-Binding-Removal-by-the-Domain-Service-Provider"><a href="#1-Incomplete-IP-Binding-Removal-by-the-Domain-Service-Provider" class="headerlink" title="1. Incomplete IP Binding Removal by the Domain Service Provider"></a>1. Incomplete IP Binding Removal by the Domain Service Provider</h3><p>Sometimes, the domain service provider may not have fully removed the binding between your domain and the IP address. In this case, the IP may still be associated with the domain name.</p>
+<ul>
+<li><strong>Solution</strong>: Double-check with your domain service provider and make sure all bindings to that IP address have been completely removed.</li>
+</ul>
+<h3 id="2-Domain-Name-Service-Provider-Cache-Not-Cleared"><a href="#2-Domain-Name-Service-Provider-Cache-Not-Cleared" class="headerlink" title="2. Domain Name Service Provider Cache Not Cleared"></a>2. Domain Name Service Provider Cache Not Cleared</h3><p>If the cache of your domain service provider hasn’t been cleared, the redirection issue may persist, causing the IP address to still point to the domain.</p>
+<ul>
+<li><strong>Solution</strong>: Contact your service provider and request them to clear their cache. Alternatively, you may need to wait for the DNS cache to expire naturally.</li>
+</ul>
+<h3 id="3-Server-URL-Rewrite-Rules-Not-Updated"><a href="#3-Server-URL-Rewrite-Rules-Not-Updated" class="headerlink" title="3. Server URL Rewrite Rules Not Updated"></a>3. Server URL Rewrite Rules Not Updated</h3><p>The server’s URL rewrite rules (e.g., in Nginx or Apache <code>.htaccess</code> files) might still redirect the IP address to the domain, even after unbinding.</p>
+<ul>
+<li><strong>Solution</strong>: Update or remove any URL rewrite rules in your server configuration to stop redirection to the domain name.</li>
+</ul>
+<h3 id="Example-Checking-and-Tuning-Settings-with-Cloudflare"><a href="#Example-Checking-and-Tuning-Settings-with-Cloudflare" class="headerlink" title="Example: Checking and Tuning Settings with Cloudflare"></a>Example: Checking and Tuning Settings with Cloudflare</h3><p>If you’re using Cloudflare, here are steps to ensure your IP address no longer redirects to the domain:</p>
+<ol>
+<li><p><strong>Check DNS Records</strong>: Log into <a href="https://dash.cloudflare.com/">Cloudflare</a> and go to the <strong>DNS</strong> Records page. Ensure that there are no other domains bound to your server’s IP address. Delete any unnecessary records.</p>
 </li>
-<li><p>Go to <strong>Cache</strong> - <strong>Configuration</strong> - <strong>Clear Cache</strong> and select <strong>Clear All</strong> to make sure the cache has been cleared.<br>  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/cloudflare%E7%BC%93%E5%AD%98.webp" alt="cloudflare-Cache Cleanup"></p>
+<li><p><strong>Clear Cache</strong>: Navigate to <strong>Cache</strong> → <strong>Configuration</strong> → <strong>Clear Cache</strong> and select <strong>Clear All</strong>. This will ensure that Cloudflare’s cache is cleared, preventing old redirect behavior.</p>
+<p> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/cloudflare%E7%BC%93%E5%AD%98.webp" alt="Cloudflare Cache Cleanup"></p>
 </li>
-<li><p>Open your Nginx configuration file and make sure you have changed the bound domain name to an IP address. This way, your IP URL will open properly.</p>
+<li><p><strong>Update Nginx Configuration</strong>: Open your Nginx configuration file and ensure the domain name binding has been updated to reflect the correct IP address. This step will make sure that the IP URL opens properly without redirecting.</p>
 </li>
 </ol>
 <blockquote>
-<p>The above solution is based on a public IP address with port 80 already open.</p>
+<p><strong>Note</strong>: The above solutions assume your public IP address has port 80 open for web traffic.</p>
 </blockquote>
+<hr>
+<p>By addressing these potential issues, you can prevent unwanted redirection and ensure that your IP address points to the correct content.</p>
 ]]></content>
       <categories>
-        <category>website</category>
+        <category>Website</category>
       </categories>
       <tags>
-        <tag>website</tag>
+        <tag>Website, DNS, IP Address, Domain, Redirect</tag>
       </tags>
   </entry>
   <entry>
-    <title>Record my entry into linux</title>
+    <title>My Journey into Linux</title>
     <url>/Record%20my%20entry%20into%20linux/</url>
-    <content><![CDATA[<h1 id="Rebirth-of-linux-first-experience"><a href="#Rebirth-of-linux-first-experience" class="headerlink" title="Rebirth of linux first experience"></a>Rebirth of linux first experience</h1><p>When did you guys get into linux? Studying? Building a website?<br>I was listening to Linus Torvalds’ story when I was just a little kid, listening to an uploader on b-site explaining linux, and then got interested in linux.</p>
+    <content><![CDATA[<h1 id="My-First-Experience-with-Linux"><a href="#My-First-Experience-with-Linux" class="headerlink" title="My First Experience with Linux"></a>My First Experience with Linux</h1><p>When did you first dive into Linux? Was it for studying? Building a website? For me, it all started when I heard the story of Linus Torvalds as a kid. I was watching a video on B-site where the uploader was explaining Linux, and that piqued my interest.</p>
 <span id="more"></span>
-<p>oneself behind bought a book ‘bird brother’s private kitchen’ learned and then did not look at it, may be the command is too boring, no windows mouse click conveniently also may I simply do not like haha, linux that time into the pit when most of the time are pouring in the virtual machine vmware the process of creating a virtual machine, that time to go under the iso is really slow, but wait for a long time on the next good, by then out a virtual machine tutorial, anyway, no one to see write to play, the first time searching for linux when most of the appearances are ubuntu, after a curious go down a, then ubuntu desktop is not as intuitive and easy as it is now, there are still some incompatibilities, gnome is okay, if you’re using a laptop then I recommend or use kde desktop, kde will be much more fluent, although the The first command I remember from that time was cd cp mkdir touch, which is easy to understand.<br>These are easy to understand came ls -al these a little bit difficult and chmod add permissions these a little bit difficult at that time junior high school, junior high school at that time also bought a raspberry pi, the year before last sold can still sell the original price, a little bit funny.<br>High school that time met a game development now he is still in school should be in the direction of development to go, this person is bullish, high school will also compile linux, at that time he really is very good what will, he used millet 10 or 11 began to use docker in the mobile phone to compile to run windows in the mobile phone to run, it was very admirable, but also participated in the national competition is quite a bull of this person. University I did not learn how to do these, because they are playing, the current linux are only recently engaged in, now engaged in a cloud server!<br>installed centos kind of no graphics you can only see this kind of<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E5%91%BD%E4%BB%A4%E7%95%8C%E9%9D%A2.webp" alt="command interface"><br>In the time to engage in linux can be tossed all day, that time every day to see although nothing progressive every day Google Baidu, every day to find, a lot of error things, most of the 404, such as you did not hang the domestic mirror, most of the download from the extranet, some of which can not be downloaded directly into the error leads to some of the software you do not have to install, will lead to a series of things that you do not get it right, it’s very annoying, and then go to find! google, at that time also popular an expression google baidu will not come to the group is to seek far and near<br>At that time there are also pit people rm -rf this command to pit people This command is to force the deletion of not remind and then delete all the files lead you to all the files were deleted, the system is damaged.<br>When you think you are far away from linux, most of them are linux devices, underground stations, servers, android systems (after google’s tuning and modification into the installation is still based on linux) embedded, robotics, big data, artificial intelligence, there will be the emergence of linux.</p>
+
+<p>Later, I bought a book called <em>Bird Brother’s Private Kitchen</em> to learn more, but after a while, I stopped. Maybe the commands were too boring, or maybe I just didn’t like it. Linux lacked the convenience of Windows’ point-and-click interface, and I struggled with it at first.</p>
+<p>Back then, I spent most of my time tinkering with virtual machines in VMware. Downloading an ISO was a slow process, but once I got it, I set up my first Linux virtual machine. I remember when I first started searching for Linux distributions, Ubuntu popped up everywhere. I installed it out of curiosity. Ubuntu’s desktop wasn’t as user-friendly as it is now, and there were still a few compatibility issues. Gnome was fine, but if you’re using a laptop, I’d recommend KDE for its better performance.</p>
+<p>The first few Linux commands I learned were simple: <code>cd</code>, <code>cp</code>, <code>mkdir</code>, and <code>touch</code>. Those were easy to understand. But then came more complex ones like <code>ls -al</code> and <code>chmod</code> for managing file permissions — these took more time to master. At the time, I was just in junior high school, and I had even bought a Raspberry Pi. Funny enough, I sold it last year and got almost the same price I paid!</p>
+<h3 id="A-High-School-Encounter-with-Linux"><a href="#A-High-School-Encounter-with-Linux" class="headerlink" title="A High School Encounter with Linux"></a>A High School Encounter with Linux</h3><p>In high school, I met someone interested in game development, who is still pursuing that path today. He was a real pro back then — compiling Linux, running Docker on a Xiaomi phone, and even setting up Windows to run on it. I was amazed by his skills, especially since he participated in national competitions.</p>
+<p>As for me, I didn’t get serious with Linux until much later, during my university years. I was more focused on having fun back then. Only recently did I start working with Linux again, setting up cloud servers and installing CentOS — no graphical interface, just this:<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E5%91%BD%E4%BB%A4%E7%95%8C%E9%9D%A2.webp" alt="Command Interface"></p>
+<h3 id="The-Linux-Struggle-Trial-and-Error"><a href="#The-Linux-Struggle-Trial-and-Error" class="headerlink" title="The Linux Struggle: Trial and Error"></a>The Linux Struggle: Trial and Error</h3><p>I can spend all day working with Linux now, though progress sometimes feels slow. Google and Baidu became my best friends, as I constantly looked up errors and issues I encountered. Most of the problems were due to downloading software from external sources without using domestic mirrors, leading to many 404 errors and failed installations. It was frustrating, but also a learning process.</p>
+<p>I also came across some dangerous commands, like the infamous <code>rm -rf</code>. This command forcefully deletes files without warning, and running it can wipe out your entire system if you’re not careful!</p>
+<h3 id="Linux-in-Everyday-Life"><a href="#Linux-in-Everyday-Life" class="headerlink" title="Linux in Everyday Life"></a>Linux in Everyday Life</h3><p>You might think you’re far from Linux, but in reality, it’s everywhere — from underground metro systems to servers, Android devices, embedded systems, robotics, big data, and AI. Linux is the backbone of so much modern technology, and the more I work with it, the more I realize its importance.</p>
+<hr>
+<p>Linux has been a journey for me, from curiosity to frustration, and now to appreciation. I’m still learning, but I’ve come a long way from my first virtual machine experience. What’s your story with Linux? Let me know in the comments!</p>
 ]]></content>
       <categories>
-        <category>for the record</category>
+        <category>For the Record</category>
       </categories>
       <tags>
-        <tag>linux</tag>
+        <tag>Linux, Beginner, Experience</tag>
       </tags>
   </entry>
   <entry>
@@ -251,7 +361,6 @@ Chest broken boulder from the “universal youth hostel” album of the same nam
 <h2 id="The-second-method"><a href="#The-second-method" class="headerlink" title="The second method"></a>The second method</h2><p>**Install beautiful lyrics in powershell and type it in.</p>
 <figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">spicetify config custom_apps</span><br><span class="line">spicetify apply</span><br></pre></td></tr></tbody></table></figure>
 <p>Recommended for beautiful lyrics: beautiful lyrics has a glass effect!<br><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSI0IiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgaWQ9InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAiIGF0dHJpYnV0ZU5hbWU9InIiIGJlZ2luPSIwO3N2Z1NwaW5uZXJzM0RvdHNTY2FsZTEuZW5kLTAuMjVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNnMiIGR1cj0iMC43NXMiIHZhbHVlcz0iMzsuMjszIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIj48YW5pbWF0ZSBpZD0ic3ZnU3Bpbm5lcnMzRG90c1NjYWxlMSIgYXR0cmlidXRlTmFtZT0iciIgYmVnaW49InN2Z1NwaW5uZXJzM0RvdHNTY2FsZTAuZW5kLTAuNDVzIiBkdXI9IjAuNzVzIiB2YWx1ZXM9IjM7LjI7MyIvPjwvY2lyY2xlPjwvc3ZnPg==" data-original="https://raw.githubusercontent.com/Duoqixiaozei/img/master/%E6%95%88%E6%9E%9C%E5%9B%BE.webp" alt="spicetify effect"><br>Open the client again to see the effect</p>
-<p>Translated with <a href="http://www.deepl.com/Translator">www.DeepL.com/Translator</a> (free version)</p>
 <blockquote>
 <p>tips: someone song don’t see lyrics.</p>
 </blockquote>
